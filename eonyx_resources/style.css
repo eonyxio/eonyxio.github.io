@@ -3584,3 +3584,11 @@ body {
     color: #FF7F50;
     /* background: #eec4c850 */
 }
+.text-accent-secondary {
+    display: inline-block;
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+    border-radius: 8px;
+    background-color: rgba(205, 196, 190, 0.30);
+    color: #5b544f;
+}
