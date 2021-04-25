@@ -3576,3 +3576,11 @@ figcaption {
         grid-template-columns: auto;
     }
 }
+body {
+    /* background: #eec4c815; */
+}
+
+.text-accent {
+    /* color: #BA1527; */
+    /* background: #eec4c850 */
+}
