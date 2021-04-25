@@ -9,10 +9,10 @@ function insertHeader() {
                 <div data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0cb" class="nav nav-links" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <nav role="navigation" class="nav-menu w-nav-menu">
                         <a href="./" aria-current="page" class="nav-link w-nav-link w--current">Home<br></a>
-                        <a href="features" class="nav-link w-nav-link">Features<br></a>
+                        <a href="features" class="nav-link w-nav-link hide">Features<br></a>
                         <a href="contact" class="nav-link w-nav-link">Contact<br></a>
                         <a href="blog" class="nav-link w-nav-link hide">Blog<br></a>
-                        <a href="company" class="nav-link w-nav-link">Company<br></a>
+                        <a href="company" class="nav-link w-nav-link hide">Company<br></a>
                     </nav>
                 </div>
                 <div data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0dc" class="nav right " style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
@@ -62,7 +62,7 @@ function insertFooter() {
                 </div>
             </div>
             <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fe8" class="footer-down" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
-                <div class="text-footer-down">All rights reserved</div>
+                <div class="text-footer-down">Copyright © ` + new Date().getFullYear() + ` Eonyx. All Rights Reserved.</div>
             </div>
         </div>
     </div>
