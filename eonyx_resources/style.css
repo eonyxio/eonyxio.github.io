@@ -3592,3 +3592,12 @@ body {
     background-color: rgba(205, 196, 190, 0.30);
     color: #5b544f;
 }
+.paragraph-hero {
+    max-width: 700px;
+}
+@media screen and (max-width: 767px) {
+    .paragraph-hero {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
