@@ -9,6 +9,8 @@ function insertHeader() {
                 <div data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0cb" class="nav nav-links" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <nav role="navigation" class="nav-menu w-nav-menu">
                         <a href="./" aria-current="page" class="nav-link w-nav-link w--current">Home<br></a>
+                        <a href="careers" class="nav-link w-nav-link">Careers<br></a>
+                        <a href="apply" class="nav-link w-nav-link">Apply now<br></a>
                         <a href="features" class="nav-link w-nav-link hide">Features<br></a>
                         <a href="contact" class="nav-link w-nav-link">Contact<br></a>
                         <a href="blog" class="nav-link w-nav-link hide">Blog<br></a>
@@ -44,6 +46,8 @@ function insertFooter() {
                     <div class="heading-footer">Quick Links</div>
                         <a href="company" aria-current="page" class="link-footer w--current  hide">Company<br></a>
                         <a href="./" class="link-footer ">Home</a>
+                        <a href="careers" class="link-footer">Careers</a>
+                        <a href="apply" class="link-footer">Apply now</a>
                         <a href="features" class="link-footer hide">Features</a>
                         <a href="contact" class="link-footer">Contact</a>
                         <a href="blog" class="link-footer  hide">Blog</a>
