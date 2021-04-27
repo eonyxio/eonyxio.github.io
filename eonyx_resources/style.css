@@ -3601,3 +3601,8 @@ body {
         text-justify: inter-word;
     }
 }
+
+.job-title {
+  font-size: 48px;
+  margin-bottom: 0.5em;
+}
