@@ -46,7 +46,7 @@ function insertFooter() {
                         <a href="company" aria-current="page" class="link-footer w--current  hide">Company<br></a>
                         <a href="./" class="link-footer ">Home</a>
                         <a href="careers" class="link-footer">Careers</a>
-                        <a href="apply" class="link-footer">Apply now</a>
+                        <a href="apply" class="link-footer" target="_blank">Apply now</a>
                         <a href="features" class="link-footer hide">Features</a>
                         <a href="contact" class="link-footer">Contact</a>
                         <a href="blog" class="link-footer  hide">Blog</a>
