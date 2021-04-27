@@ -3575,6 +3575,9 @@ figcaption {
     .grid-footer {
         grid-template-columns: auto;
     }
+    h1.heading-hero {
+        line-height: 142%;
+    }
 }
 body {
     /* background: #eec4c815; */
