@@ -10,7 +10,6 @@ function insertHeader() {
                     <nav role="navigation" class="nav-menu w-nav-menu">
                         <a href="./" aria-current="page" class="nav-link w-nav-link w--current">Home<br></a>
                         <a href="careers" class="nav-link w-nav-link">Careers<br></a>
-                        <a href="apply" class="nav-link w-nav-link">Apply now<br></a>
                         <a href="features" class="nav-link w-nav-link hide">Features<br></a>
                         <a href="contact" class="nav-link w-nav-link">Contact<br></a>
                         <a href="blog" class="nav-link w-nav-link hide">Blog<br></a>
