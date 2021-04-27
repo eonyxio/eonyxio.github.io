@@ -22,7 +22,7 @@ function insertHeader() {
                         <a href="sign-up" class="nav-button w-button">Sign up</a>
                     </div>
                     <div class="menu-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
-                        <div class="menu-icon w-icon-nav-menu"></div>
+                        <div class="menu-icon w-icon-nav-menu" style="font-size: 36px;"></div>
                     </div>
                 </div>
             </div>
