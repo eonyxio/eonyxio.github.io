@@ -39,7 +39,7 @@ function insertFooter() {
         <div class="content">
             <div class="w-layout-grid grid-footer">
                 <div id="w-node-da92ec24-0a93-58e4-1a73-58ed5b0e2fba-5b0e2fb7" data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fba" class="block-footer" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"><img src="eonyx_assets/601be3303f11492babdd41e2_logo.svg" loading="lazy" alt="" class="logo-footer hide"><img src="eonyx_assets/eonyx.svg" style="height: 46px; margin-bottom: 35px;" loading="lazy" alt="" class="logo">
-                    <p class="paragraph-footer">137, Lane 1, <br>Iqbal Abad, Bemina, Srinagar, Jammu and Kashmir, India<br><br><a href="mailto:info@eonyx.io">info@eonyx.io</a></p>
+                    <p class="paragraph-footer">137, Lane 1, <br>Iqbal Abad, Bemina, Srinagar,<br>Jammu and Kashmir - 190002<br><br><a href="mailto:info@eonyx.io">info@eonyx.io</a></p>
                 </div>
                 <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fc6" class="block-footer" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="heading-footer">Quick Links</div>
