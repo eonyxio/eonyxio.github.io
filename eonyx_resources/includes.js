@@ -74,6 +74,7 @@ function insertFooter() {
             </div>
         </div>
     </div>
+    <!-- Start of HubSpot Embed Code --><script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20288898.js"></script><!-- End of HubSpot Embed Code -->
     `)
 }
 
