@@ -112,3 +112,114 @@ function insertStartBanner() {
     </div>
     `)
 }
+
+function insertTestimonial() {
+    document.write(`
+    <div class="section">
+        <div class="content">
+            <div class="w-layout-grid grid-3-columns">
+                <div id="w-node-div-block-15-9512f16b" data-w-id="Div Block 15" class="block-left">
+                    <h2 data-w-id="feb86f04-9b03-b314-7698-5351e304e5b2" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">What clients say about us</h2>
+                    <p data-w-id="b362194f-ae3c-bca4-3695-6bf62e8819dc" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="paragraph">Clients text here</p><a data-w-id="0179a148-6b7d-5c6d-ce07-5b9fba26b7e3" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+                        href="`+ "../".repeat(LOC_LEVEL) +`company.html" class="button w-button">About Us</a></div>
+                <div data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="w-layout-grid grid-row">
+                    <div class="testimonial">
+                        <p class="paragraph-testimonial">Testimonial 1</p>
+                        <div class="client"><img src="`+ "../".repeat(LOC_LEVEL) +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
+                            <div class="client-info">
+                                <h6 class="name">Cody Fisher</h6>
+                                <div class="info">Senior Writer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p class="paragraph-testimonial">Testimonial 2</p>
+                        <div class="client"><img src="`+ "../".repeat(LOC_LEVEL) +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
+                            <div class="client-info">
+                                <h6 class="name">Esther Howard</h6>
+                                <div class="info">Senior Engineer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-w-id="b18f8d74-066d-ad7f-4d2a-5b9cbddbb217" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="w-layout-grid grid-row">
+                    <div class="testimonial">
+                        <p class="paragraph-testimonial">Testimonial 3</p>
+                        <div class="client"><img src="`+ "../".repeat(LOC_LEVEL) +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
+                            <div class="client-info">
+                                <h6 class="name">Eleanor Pena</h6>
+                                <div class="info">CEO</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p class="paragraph-testimonial">Testimonial 4</p>
+                        <div class="client"><img src="`+ "../".repeat(LOC_LEVEL) +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
+                            <div class="client-info">
+                                <h6 class="name">Jane Cooper</h6>
+                                <div class="info">Venture Lead</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    `)
+}
+
+function insertPortfolio() {
+    document.write(`
+    <div class="section">
+        <div class="content">
+            <div class="block-center">
+                <h2 data-w-id="ac1c39f6-3071-f098-aec3-9337033bdfe6" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">Portfolio</h2>
+            </div>
+            <div class="collection-list-wrapper w-dyn-list">
+                <div role="list" class="collection-list w-dyn-items">
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ "../".repeat(LOC_LEVEL) +`eonyx_assets/6026ca574be648fb615b8fd8_blog%25204.svg" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
+                            <div class="category-blog">Portfolio 1</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">Portfolio 1 text here</h5>
+                            </a>
+                            <div class="date-blog">February 12, 2021</div>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ "../".repeat(LOC_LEVEL) +`eonyx_assets/6026ca3f40a378597490ec0c_blog%25203.svg" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
+                            <div class="category-blog">Portfolio 2</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">Portfolio 1 text here</h5>
+                            </a>
+                            <div class="date-blog">February 12, 2021</div>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ "../".repeat(LOC_LEVEL) +`eonyx_assets/6026ca25e3c5b0fd9be9bea5_blog%25202.svg" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <div class="category-blog">Portfolio 3</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">Portfolio 3 text here</h5>
+                            </a>
+                            <div class="date-blog">February 12, 2021</div>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ "../".repeat(LOC_LEVEL) +`eonyx_assets/6026c9f70f9e3e0a44a1bbe6_blog%25201.svg" loading="lazy" alt="5 Technologies that are true student helpers these days" class="image-blog"></a>
+                            <div class="category-blog">Portfolio 4</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">Portfolio 4 text here</h5>
+                            </a>
+                            <div class="date-blog">February 12, 2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    `)
+}
