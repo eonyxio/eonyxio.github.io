@@ -15,6 +15,26 @@ function insertHeader() {
                 <div data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0cb" class="nav nav-links" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <nav role="navigation" class="nav-menu w-nav-menu">
                         <a href="`+ getRoot() +`/." aria-current="page" class="nav-link w-nav-link w--current">Home<br></a>
+                        <div class="dropdown">
+                            <a class="dropdown-btn nav-link w-nav-link">Services</a>
+                            <div class="dropdown-content nav-bar">
+                                <div class="dropdown-content-block">
+                                    <a href="`+ getRoot() +`/services/android">Android App</a>
+                                    <a href="`+ getRoot() +`/services/android">iOS App</a>
+                                    <a href="`+ getRoot() +`/services/android">React Native App</a>
+                                </div>
+                                <div class="dropdown-content-block">
+                                <a href="`+ getRoot() +`/services/android">Web Design</a>
+                                    <a href="`+ getRoot() +`/services/android">Web Development</a>
+                                    <a href="`+ getRoot() +`/services/android">Api Development</a>
+                                </div>
+                                <div class="dropdown-content-block">
+                                    <a href="`+ getRoot() +`/services/android">Cloud Platform</a>
+                                    <a href="`+ getRoot() +`/services/android">Software Consultant</a>
+                                    <a href="`+ getRoot() +`/services/android">Software Development</a>
+                                </div>
+                            </div>
+                        </div>
                         <a href="`+ getRoot() +`careers" class="nav-link w-nav-link">Careers<br></a>
                         <a href="`+ getRoot() +`features" class="nav-link w-nav-link hide">Features<br></a>
                         <a href="`+ getRoot() +`contact" class="nav-link w-nav-link">Contact<br></a>
