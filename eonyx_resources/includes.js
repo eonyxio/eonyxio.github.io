@@ -19,9 +19,9 @@ function insertHeader() {
                             <a class="dropdown-btn nav-link w-nav-link">Services</a>
                             <div class="dropdown-content nav-bar">
                                 <div class="dropdown-content-block">
-                                    <a href="`+ getRoot() +`/services/android">Android App</a>
-                                    <a href="`+ getRoot() +`/services/android">iOS App</a>
-                                    <a href="`+ getRoot() +`/services/android">React Native App</a>
+                                    <a href="`+ getRoot() +`/services/android">Android App Development</a>
+                                    <a href="`+ getRoot() +`/services/android">iOS App Development</a>
+                                    <a href="`+ getRoot() +`/services/android">React Native App Development</a>
                                 </div>
                                 <div class="dropdown-content-block">
                                 <a href="`+ getRoot() +`/services/android">Web Design</a>
@@ -29,8 +29,8 @@ function insertHeader() {
                                     <a href="`+ getRoot() +`/services/android">Api Development</a>
                                 </div>
                                 <div class="dropdown-content-block">
-                                    <a href="`+ getRoot() +`/services/android">Cloud Platform</a>
-                                    <a href="`+ getRoot() +`/services/android">Software Consultant</a>
+                                    <a href="`+ getRoot() +`/services/android">Cloud Platform Management</a>
+                                    <a href="`+ getRoot() +`/services/android">Software Consultancy</a>
                                     <a href="`+ getRoot() +`/services/android">Software Development</a>
                                 </div>
                             </div>
