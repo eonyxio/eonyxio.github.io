@@ -10,28 +10,28 @@ function insertHeader() {
         <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0c6" role="banner" class="navbar w-nav" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
             <div class="w-layout-grid grid-navbar">
                 <div data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0c8" class="nav" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
-                    <a href="`+ getRoot() +`/." aria-current="page" class="brand w-nav-brand w--current" aria-label="home"><img src="`+ getRoot() +`eonyx_assets/601be3303f11492babdd41e2_logo.svg" loading="lazy" alt="" class="logo hide"><img src="`+ getRoot() +`eonyx_assets/eonyx.svg" style="height: 46px;" loading="lazy" alt="" class="logo"></a>
+                    <a href="`+ getRoot() +`." aria-current="page" class="brand w-nav-brand w--current" aria-label="home"><img src="`+ getRoot() +`eonyx_assets/601be3303f11492babdd41e2_logo.svg" loading="lazy" alt="" class="logo hide"><img src="`+ getRoot() +`eonyx_assets/eonyx.svg" style="height: 46px;" loading="lazy" alt="" class="logo"></a>
                 </div>
                 <div data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0cb" class="nav nav-links" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <nav role="navigation" class="nav-menu w-nav-menu">
-                        <a href="`+ getRoot() +`/." aria-current="page" class="nav-link w-nav-link w--current">Home<br></a>
+                        <a href="`+ getRoot() +`." aria-current="page" class="nav-link w-nav-link w--current">Home<br></a>
                         <div class="dropdown">
                             <a class="dropdown-btn nav-link w-nav-link">Services</a>
                             <div class="dropdown-content nav-bar">
                                 <div class="dropdown-content-block">
-                                    <a href="`+ getRoot() +`/services/android">Android App Development</a>
-                                    <a href="`+ getRoot() +`/services/android">iOS App Development</a>
-                                    <a href="`+ getRoot() +`/services/android">React Native App Development</a>
+                                    <a href="`+ getRoot() +`services/android-app-development">Android App Development</a>
+                                    <a href="`+ getRoot() +`services/ios-app-development">iOS App Development</a>
+                                    <a href="`+ getRoot() +`services/react-native-app-development">React Native App Development</a>
                                 </div>
                                 <div class="dropdown-content-block">
-                                <a href="`+ getRoot() +`/services/android">Web Design</a>
-                                    <a href="`+ getRoot() +`/services/android">Web Development</a>
-                                    <a href="`+ getRoot() +`/services/android">Api Development</a>
+                                <a href="`+ getRoot() +`services/web-design">Web Design</a>
+                                    <a href="`+ getRoot() +`services/web-development">Web Development</a>
+                                    <a href="`+ getRoot() +`services/api-design-and-development">API Development</a>
                                 </div>
                                 <div class="dropdown-content-block">
-                                    <a href="`+ getRoot() +`/services/android">Cloud Platform Management</a>
-                                    <a href="`+ getRoot() +`/services/android">Software Consultancy</a>
-                                    <a href="`+ getRoot() +`/services/android">Software Development</a>
+                                    <a href="`+ getRoot() +`services/android">Cloud Platform Management</a>
+                                    <a href="`+ getRoot() +`services/android">Software Consultancy</a>
+                                    <a href="`+ getRoot() +`services/android">Software Development</a>
                                 </div>
                             </div>
                         </div>
