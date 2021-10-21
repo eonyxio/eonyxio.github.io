@@ -29,9 +29,12 @@ function insertHeader() {
                                     <a href="`+ getRoot() +`services/api-design-and-development">API Development</a>
                                 </div>
                                 <div class="dropdown-content-block">
-                                    <a href="`+ getRoot() +`services/android">Cloud Platform Management</a>
-                                    <a href="`+ getRoot() +`services/android">Software Consultancy</a>
-                                    <a href="`+ getRoot() +`services/android">Software Development</a>
+                                    <a href="`+ getRoot() +`services/cloud-platform-management">Cloud Platform Management</a>
+                                    <a href="`+ getRoot() +`services/software-consultancy">Software Consultancy</a>
+                                    <a href="`+ getRoot() +`services/software-development">Software Development</a>
+                                    <a href="`+ getRoot() +`services/technical-architecture">Technical Architecture</a>
+                                    <a href="`+ getRoot() +`services/software-support">Software Support</a>
+                                    <a href="`+ getRoot() +`services/software-services">Software Services</a>
                                 </div>
                             </div>
                         </div>

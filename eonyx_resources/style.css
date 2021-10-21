@@ -3676,3 +3676,9 @@ body {
 .text-justify {
     text-align: justify;
 }
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
