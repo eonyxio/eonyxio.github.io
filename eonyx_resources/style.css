@@ -3682,3 +3682,39 @@ body {
 .text-right {
     text-align: right;
 }
+
+.grid-4-columns {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5-columns {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.section-brands-banner .content {
+    /* border-radius: 24px;
+    background-color: #0c1d37;
+    padding: 50px 0; */
+}
+.section-brands-banner .content-title {
+    margin-bottom: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section-brands-banner .content-title:after {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.571);
+    display: block;
+    content: "";
+    width: 60%;
+    margin: auto;
+    margin-top: 8px;
+}
+.section-brands-banner .brand-image {
+    text-align: center;
+    margin: 0 35px;
+}
+.section-brands-banner .brand-image img {
+    height: 35px;
+    filter: grayscale(1);
+}

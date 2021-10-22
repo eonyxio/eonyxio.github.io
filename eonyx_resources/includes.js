@@ -250,3 +250,42 @@ function insertPortfolio() {
     </div>
     `)
 }
+
+
+
+function insertBrandsBanner() {
+    document.write(`
+    <div class="section section-brands-banner">
+        <div class="content-title">Trusted by the world's best</div>
+        <div class="content">
+            <div class="w-layout-grid grid-5-columns">
+                <div class="w-layout-grid grid-row" data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+                    <div class="brand-image">
+                        <img src="`+ getRoot() +`images/clients/LifeRamp.svg" />
+                    </div>
+                </div>
+                <div class="w-layout-grid grid-row" data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+                    <div class="brand-image">
+                        <img src="`+ getRoot() +`images/clients/stamats_logo.svg" />
+                    </div>
+                </div>
+                <div class="w-layout-grid grid-row" data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+                    <div class="brand-image">
+                        <img src="`+ getRoot() +`images/clients/shmooze_logo.png" />
+                    </div>
+                </div>
+                <div class="w-layout-grid grid-row" data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+                    <div class="brand-image">
+                        <img src="https://radar.stamats.com/assets/images/Stamats_Logo.png" />
+                    </div>
+                </div>
+                <div class="w-layout-grid grid-row" data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+                    <div class="brand-image">
+                        <img src="`+ getRoot() +`images/clients/AMS_logo.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    `)
+}
