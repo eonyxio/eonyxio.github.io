@@ -151,11 +151,11 @@ function insertTestimonial() {
                         href="`+ getRoot() +`company.html" class="button w-button">About Us</a></div>
                 <div data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="w-layout-grid grid-row">
                     <div class="testimonial">
-                        <p class="paragraph-testimonial">Testimonial 1</p>
+                        <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
                         <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
                             <div class="client-info">
-                                <h6 class="name">Cody Fisher</h6>
-                                <div class="info">Senior Writer</div>
+                                <h6 class="name">Dr. James Vineburgh</h6>
+                                <div class="info">Chief Products Officer at Stamats Communications</div>
                             </div>
                         </div>
                     </div>
