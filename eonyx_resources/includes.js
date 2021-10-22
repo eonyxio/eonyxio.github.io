@@ -4,6 +4,32 @@ function getRoot() {
     return "../".repeat(LOC_LEVEL)
 }
 
+var slideIndex = 1;
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+}
+
+
 function insertHeader() {
     document.write(`
     <div class="section-navbar">
@@ -144,55 +170,71 @@ function insertTestimonial() {
     document.write(`
     <div class="section">
         <div class="content">
-            <div class="w-layout-grid grid-3-columns">
-                <div id="w-node-div-block-15-9512f16b" data-w-id="Div Block 15" class="block-left">
-                    <h2 data-w-id="feb86f04-9b03-b314-7698-5351e304e5b2" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">What clients say about us</h2>
-                    <p data-w-id="b362194f-ae3c-bca4-3695-6bf62e8819dc" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="paragraph">Clients text here</p><a data-w-id="0179a148-6b7d-5c6d-ce07-5b9fba26b7e3" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-                        href="`+ getRoot() +`company.html" class="button w-button">About Us</a></div>
-                <div data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="w-layout-grid grid-row">
-                    <div class="testimonial">
-                        <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
-                        <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                            <div class="client-info">
-                                <h6 class="name">Dr. James Vineburgh</h6>
-                                <div class="info">Chief Products Officer at Stamats Communications</div>
-                            </div>
+            <div id="w-node-div-block-15-9512f16b" data-w-id="Div Block 15" class="block-left" style=" padding-right: 0; margin-bottom: 15px; ">
+                <h2 data-w-id="feb86f04-9b03-b314-7698-5351e304e5b2" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">What clients say about us</h2>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="testimonial eonyx-testimonial">
+                        <div class="testimonial-image">
+                        <img src="https://www.stamats.com/wp-content/uploads/2021/07/James-Vineburgh.jpg" />
                         </div>
-                    </div>
-                    <div class="testimonial">
-                        <p class="paragraph-testimonial">Testimonial 2</p>
-                        <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                            <div class="client-info">
-                                <h6 class="name">Esther Howard</h6>
-                                <div class="info">Senior Engineer</div>
+                        <div class="testimonial-content">
+                            <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
+                            <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
+                                <div class="client-info">
+                                    <h6 class="name">Dr. James Vineburgh</h6>
+                                    <div class="info">Chief Products Officer at Stamats Communications</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div data-w-id="b18f8d74-066d-ad7f-4d2a-5b9cbddbb217" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="w-layout-grid grid-row">
-                    <div class="testimonial">
-                        <p class="paragraph-testimonial">Testimonial 3</p>
-                        <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                            <div class="client-info">
-                                <h6 class="name">Eleanor Pena</h6>
-                                <div class="info">CEO</div>
-                            </div>
+                <div class="mySlides fade">
+                    <div class="testimonial eonyx-testimonial">
+                        <div class="testimonial-image">
+                        <img src="https://www.stamats.com/wp-content/uploads/2021/07/James-Vineburgh.jpg" />
                         </div>
-                    </div>
-                    <div class="testimonial">
-                        <p class="paragraph-testimonial">Testimonial 4</p>
-                        <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                            <div class="client-info">
-                                <h6 class="name">Jane Cooper</h6>
-                                <div class="info">Venture Lead</div>
+                        <div class="testimonial-content">
+                            <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
+                            <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
+                                <div class="client-info">
+                                    <h6 class="name">Dr. James Vineburgh</h6>
+                                    <div class="info">Chief Products Officer at Stamats Communications</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="mySlides fade">
+                    <div class="testimonial eonyx-testimonial">
+                        <div class="testimonial-image">
+                        <img src="https://www.stamats.com/wp-content/uploads/2021/07/James-Vineburgh.jpg" />
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
+                            <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
+                                <div class="client-info">
+                                    <h6 class="name">Dr. James Vineburgh</h6>
+                                    <div class="info">Chief Products Officer at Stamats Communications</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </div>
     </div>
     `)
+    showSlides(slideIndex);
 }
 
 function insertPortfolio() {
