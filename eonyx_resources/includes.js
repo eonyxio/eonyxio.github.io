@@ -32,7 +32,7 @@ function insertHeader() {
                                     <a href="`+ getRoot() +`services/cloud-platform-management">Cloud Platform Management</a>
                                     <a href="`+ getRoot() +`services/software-consultancy">Software Consultancy</a>
                                     <a href="`+ getRoot() +`services/software-development">Software Development</a>
-                                    <a href="`+ getRoot() +`services/technical-architecture">Technical Architecture</a>
+                                    <a href="`+ getRoot() +`services/technical-architecture-design">Technical Architecture</a>
                                     <a href="`+ getRoot() +`services/software-support">Software Support</a>
                                     <a href="`+ getRoot() +`services/software-services">Software Services</a>
                                 </div>
@@ -229,42 +229,39 @@ function insertPortfolio() {
                 <div role="list" class="collection-list w-dyn-items">
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`eonyx_assets/6026ca574be648fb615b8fd8_blog%25204.svg" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
-                            <div class="category-blog">Portfolio 1</div>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`images/portfolio/liferamp-desktop.png" loading="lazy" alt="5 Technologies that are true student helpers these days" class="image-blog"></a>
+                            <div class="category-blog">Web</div>
                             <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">Portfolio 1 text here</h5>
+                                <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
                             </a>
-                            <div class="date-blog">February 12, 2021</div>
                         </div>
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`eonyx_assets/6026ca3f40a378597490ec0c_blog%25203.svg" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
-                            <div class="category-blog">Portfolio 2</div>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`images/portfolio/liferamp-ios.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
+                            <div class="category-blog">iOS</div>
                             <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">Portfolio 1 text here</h5>
+                                <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
                             </a>
-                            <div class="date-blog">February 12, 2021</div>
+                            <div class="date-blog hide">2021</div>
                         </div>
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`eonyx_assets/6026ca25e3c5b0fd9be9bea5_blog%25202.svg" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
-                            <div class="category-blog">Portfolio 3</div>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`images/portfolio/liferamp-android.png" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
+                            <div class="category-blog">Android</div>
                             <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">Portfolio 3 text here</h5>
+                                <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
                             </a>
-                            <div class="date-blog">February 12, 2021</div>
                         </div>
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`eonyx_assets/6026c9f70f9e3e0a44a1bbe6_blog%25201.svg" loading="lazy" alt="5 Technologies that are true student helpers these days" class="image-blog"></a>
-                            <div class="category-blog">Portfolio 4</div>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`images/portfolio/technical-architecture.jpg" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <div class="category-blog">Product Design</div>
                             <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">Portfolio 4 text here</h5>
+                                <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
                             </a>
-                            <div class="date-blog">February 12, 2021</div>
                         </div>
                     </div>
                 </div>

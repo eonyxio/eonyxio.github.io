@@ -3857,3 +3857,7 @@ img {vertical-align: middle;}
         margin-right: 0;
     }
 }
+
+.image-wrapper {
+    box-shadow: 0 25px 50px -10px rgb(100 44 0 / 7%);
+}
