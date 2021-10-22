@@ -3836,7 +3836,17 @@ img {vertical-align: middle;}
 .eonyx-testimonial .testimonial-content {
     flex: 1;
 }
-
+.eonyx-testimonial .testimonial-content a {
+    text-decoration: none;
+}
+.eonyx-testimonial .testimonial-content .name {
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 135%;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
 @media screen and (max-width: 986px) {
     .eonyx-testimonial .testimonial-image {
         flex: 1 1 100%;

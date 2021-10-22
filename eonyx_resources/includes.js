@@ -4,32 +4,6 @@ function getRoot() {
     return "../".repeat(LOC_LEVEL)
 }
 
-var slideIndex = 1;
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-}
-
-
 function insertHeader() {
     document.write(`
     <div class="section-navbar">
@@ -174,7 +148,7 @@ function insertTestimonial() {
                 <h2 data-w-id="feb86f04-9b03-b314-7698-5351e304e5b2" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">What clients say about us</h2>
             </div>
             <div class="slideshow-container">
-                <div class="mySlides fade">
+                <div class="eonyxSlides fade">
                     <div class="testimonial eonyx-testimonial">
                         <div class="testimonial-image">
                         <img src="https://www.stamats.com/wp-content/uploads/2021/07/James-Vineburgh.jpg" />
@@ -182,48 +156,54 @@ function insertTestimonial() {
                         <div class="testimonial-content">
                             <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
                             <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                                <div class="client-info">
-                                    <h6 class="name">Dr. James Vineburgh</h6>
-                                    <div class="info">Chief Products Officer at Stamats Communications</div>
-                                </div>
+                                <a href="https://www.stamats.com/author/james-vineburgh/" target="_blank">
+                                    <div class="client-info">
+                                        <div class="name">Dr. James Vineburgh</div>
+                                        <div class="info">Chief Products Officer at Stamats Communications</div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mySlides fade">
+                <div class="eonyxSlides fade">
                     <div class="testimonial eonyx-testimonial">
                         <div class="testimonial-image">
-                        <img src="https://www.stamats.com/wp-content/uploads/2021/07/James-Vineburgh.jpg" />
+                        <img src="https://www.stamats.com/wp-content/uploads/2021/09/Peter1.jpg" />
                         </div>
                         <div class="testimonial-content">
                             <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
                             <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                                <div class="client-info">
-                                    <h6 class="name">Dr. James Vineburgh</h6>
-                                    <div class="info">Chief Products Officer at Stamats Communications</div>
-                                </div>
+                                <a href="https://www.stamats.com/author/james-vineburgh/" target="_blank">
+                                    <div class="client-info">
+                                        <div class="name">Dr. James Vineburgh</div>
+                                        <div class="info">Chief Products Officer at Stamats Communications</div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mySlides fade">
+                <div class="eonyxSlides fade">
                     <div class="testimonial eonyx-testimonial">
                         <div class="testimonial-image">
-                        <img src="https://www.stamats.com/wp-content/uploads/2021/07/James-Vineburgh.jpg" />
+                        <img src="https://www.stamats.com/wp-content/uploads/2020/03/bill-stamats-sqo.jpg" />
                         </div>
                         <div class="testimonial-content">
                             <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
                             <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                                <div class="client-info">
-                                    <h6 class="name">Dr. James Vineburgh</h6>
-                                    <div class="info">Chief Products Officer at Stamats Communications</div>
-                                </div>
+                                <a href="https://www.stamats.com/author/james-vineburgh/" target="_blank">
+                                    <div class="client-info">
+                                        <div class="name">Dr. James Vineburgh</div>
+                                        <div class="info">Chief Products Officer at Stamats Communications</div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="prev" onclick="addSlides(-1)">&#10094;</a>
+                <a class="next" onclick="addSlides(1)">&#10095;</a>
             </div>
             <br>
             <div style="text-align:center">
@@ -234,7 +214,8 @@ function insertTestimonial() {
         </div>
     </div>
     `)
-    showSlides(slideIndex);
+    showSlide(slideIndex);
+    setSliderTimer()
 }
 
 function insertPortfolio() {
@@ -294,7 +275,6 @@ function insertPortfolio() {
 }
 
 
-
 function insertBrandsBanner() {
     document.write(`
     <div class="section section-brands-banner">
@@ -331,3 +311,44 @@ function insertBrandsBanner() {
     </div>
     `)
 }
+
+
+// slider
+var sliderInterval = null
+function setSliderTimer() {
+    sliderInterval = setInterval(sliderTimer, 5000);
+}
+function sliderTimer() {
+    addSlides(1)
+}
+
+var slideIndex = 1;
+function addSlides(n) {
+    showSlide(slideIndex += n);
+    clearInterval(sliderInterval);
+    setSliderTimer()
+}
+
+function currentSlide(n) {
+    showSlide(slideIndex = n);
+    clearInterval(sliderInterval);
+    setSliderTimer()
+}
+
+function showSlide(n) {
+    var i;
+    var slides = document.getElementsByClassName("eonyxSlides");
+    var eonyxDots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < eonyxDots.length; i++) {
+        eonyxDots[i].className = eonyxDots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    eonyxDots[slideIndex-1].className += " active";
+}
+
+// slider
