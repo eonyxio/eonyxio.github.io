@@ -3632,7 +3632,7 @@ body {
 }
 .dropdown-content.nav-bar {
     min-width: 850px;
-    margin-left: -295px;
+    margin-left: -515px;
     padding: 20px
 }
 
@@ -3650,14 +3650,22 @@ body {
   font-size: 14px;
 }
 .dropdown-content.nav-bar a {
-    padding: 3px 16px;
+    padding: 8px 16px;
 }
+
+.dropdown-content.nav-bar .block-title {
+    padding: 3px 16px;
+    text-decoration: none;
+    display: block;
+    color: #0c1d37;
+    font-size: 18px;
+    font-weight: bold;
+  }
 
 .dropdown-content a:hover {
     /* background-color: #f7f0ed;  */
     color: #ff6501;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -3676,6 +3684,25 @@ body {
     }
 
 }
+a.dropdown-btn.nav-link.w-nav-link {
+    display: flex;
+    align-items: center;
+}
+a.dropdown-btn.nav-link.w-nav-link:hover:after {
+    filter: invert(68%) sepia(84%) saturate(2803%) hue-rotate(326deg) brightness(103%) contrast(101%)
+}
+a.dropdown-btn.nav-link.w-nav-link:after {
+    background-image: url(/eonyx_assets/chevron-rightsvg.svg);
+    margin-left: 10px;
+    margin-top: 2px;
+    content: "";
+    display: inline-block;
+    z-index: auto;
+    width: 7px;
+    height: 12px;
+    transform: rotate(90deg);
+}
+
 
 .text-justify {
     text-align: justify;

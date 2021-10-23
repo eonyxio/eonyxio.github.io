@@ -19,24 +19,28 @@ function insertHeader() {
                             <a class="dropdown-btn nav-link w-nav-link">Services</a>
                             <div class="dropdown-content nav-bar">
                                 <div class="dropdown-content-block">
-                                    <a href="`+ getRoot() +`services/android-app-development">Android App Development</a>
+                                    <div class="block-title">Mobile</div>
                                     <a href="`+ getRoot() +`services/ios-app-development">iOS App Development</a>
+                                    <a href="`+ getRoot() +`services/android-app-development">Android App Development</a>
                                     <a href="`+ getRoot() +`services/react-native-app-development">React Native App Development</a>
                                 </div>
                                 <div class="dropdown-content-block">
-                                <a href="`+ getRoot() +`services/web-design">Web Design</a>
+                                    <div class="block-title">Web</div>
+                                    <a href="`+ getRoot() +`services/web-design">Web Design</a>
                                     <a href="`+ getRoot() +`services/web-development">Web Development</a>
-                                    <a href="`+ getRoot() +`services/api-design-and-development">API Development</a>
-                                </div>
-                                <div class="dropdown-content-block">
-                                    <a href="`+ getRoot() +`services/cloud-platform-management">Cloud Platform Management</a>
-                                    <a href="`+ getRoot() +`services/software-consultancy">Software Consultancy</a>
                                     <a href="`+ getRoot() +`services/software-development">Software Development</a>
                                 </div>
                                 <div class="dropdown-content-block">
+                                    <div class="block-title">Architecture</div>
                                     <a href="`+ getRoot() +`services/technical-architecture-design">Technical Architecture</a>
-                                    <a href="`+ getRoot() +`services/software-support">Software Support</a>
-                                    <a href="`+ getRoot() +`services/software-services">Software Services</a>
+                                    <a href="`+ getRoot() +`services/software-consultancy">Software Consultancy</a>
+                                    <a href="`+ getRoot() +`services/cloud-platform-management">Cloud Platform Management</a>
+                                </div>
+                                <div class="dropdown-content-block">
+                                    <div class="block-title">Integration</div>
+                                    <a href="`+ getRoot() +`services/api-design-and-development">API Development</a>
+                                    <a href="`+ getRoot() +`services/software-services">Services &amp; Support</a>
+                                    <a href="`+ getRoot() +`services/software-integration">Software Integration</a>
                                 </div>
                             </div>
                         </div>
@@ -186,7 +190,7 @@ function insertSteps(discover = '', design = '', develop = '', discoverTitle = '
                 <img src="`+ getRoot() +`eonyx_assets/develop.svg" loading="lazy" alt="" style="width: 60px; height: 60px;" class="icon-sequence" width="35">
             </div>
             <h4 class="heading-sequence"><span class="text-accent">` + developTitle + `</span></h4>
-            <p class="paragraph-sequence">` + (develop ? develop : 'See your idea come to life with cutting-edge technology using the latest industry standards.') + `.</p>
+            <p class="paragraph-sequence">` + (develop ? develop : 'See your idea come to life with cutting-edge technology using the latest industry standards') + `.</p>
         </div>
     </div>
     `)
@@ -221,15 +225,15 @@ function insertTestimonial() {
                 <div class="eonyxSlides fade">
                     <div class="testimonial eonyx-testimonial">
                         <div class="testimonial-image">
-                        <img src="https://www.stamats.com/wp-content/uploads/2021/09/Peter1.jpg" />
+                        <img src="https://liferamp360.com/wp-content/uploads/2021/08/LifeRamp-Team_huckaby.png" />
                         </div>
                         <div class="testimonial-content">
                             <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
                             <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
                                 <a href="https://www.stamats.com/author/james-vineburgh/" target="_blank">
                                     <div class="client-info">
-                                        <div class="name">Dr. James Vineburgh</div>
-                                        <div class="info">Chief Products Officer at Stamats Communications</div>
+                                        <div class="name">Michael Huckaby</div>
+                                        <div class="info">Founder & CEO at LifeRamp Inc.</div>
                                     </div>
                                 </a>
                             </div>
