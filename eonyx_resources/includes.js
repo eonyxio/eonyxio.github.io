@@ -48,7 +48,7 @@ function insertHeader() {
                     </nav>
                     <a data-w-id="eaf3ca25-4a9b-efa9-341b-8e26bf9b8a1f"
                         style="margin-left: 25px; padding: 8px 20px; font-size: 15px; opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-                        href="#get-started" class="button w-button eonyx-accent-pulse">Get a free quote</a>
+                        href="`+ getRoot() +`contact" class="button w-button eonyx-accent-pulse">Get a free quote</a>
                 </div>
 
 
