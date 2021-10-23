@@ -47,7 +47,7 @@ function insertHeader() {
                         <a href="`+ getRoot() +`contact" class="nav-link w-nav-link">Contact<br></a>
                     </nav>
                     <a data-w-id="eaf3ca25-4a9b-efa9-341b-8e26bf9b8a1f"
-                        style="padding: 8px 20px; font-size: 15px; opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+                        style="margin-left: 25px; padding: 8px 20px; font-size: 15px; opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
                         href="#get-started" class="button w-button eonyx-accent-pulse">Get a free quote</a>
                 </div>
 
@@ -92,18 +92,24 @@ function insertFooter() {
                 </div>
                 <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fc6" class="block-footer" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="heading-footer">Services</div>
-                    <a class="link-footer" href="`+ getRoot() +`services/ios-app-development">iOS App Development</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/android-app-development">Android App Development</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/react-native-app-development">React Native App Development</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/web-design">Web Design</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/web-development">Web Development</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/software-development">Software Development</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/technical-architecture-design">Technical Architecture</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/software-consultancy">Software Consultancy</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/cloud-platform-management">Cloud Platform Management</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/api-design-and-development">API Development</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/software-services">Services &amp; Support</a>
-                    <a class="link-footer" href="`+ getRoot() +`services/software-integration">Software Integration</a>
+                    <div style="display: flex;">
+                        <div style="padding: 0 5px;">
+                            <a class="link-footer" href="`+ getRoot() +`services/ios-app-development">iOS App Development</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/android-app-development">Android App Development</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/react-native-app-development">React Native App Development</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/web-design">Web Design</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/web-development">Web Development</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/software-development">Software Development</a>
+                        </div>
+                        <div style="padding: 0 5px;">
+                            <a class="link-footer" href="`+ getRoot() +`services/technical-architecture-design">Technical Architecture</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/software-consultancy">Software Consultancy</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/cloud-platform-management">Cloud Platform Management</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/api-design-and-development">API Development</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/software-services">Services &amp; Support</a>
+                            <a class="link-footer" href="`+ getRoot() +`services/software-integration">Software Integration</a>
+                        </div>
+                    </div>
                 </div>
                 <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fd2" class="block-footer hide" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="heading-footer">Social</div>
@@ -329,7 +335,7 @@ function insertPortfolio() {
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`images/portfolio/technical-architecture.jpg" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() +`images/portfolio/product-design.jpg" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
                             <div class="category-blog">Product Design</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>

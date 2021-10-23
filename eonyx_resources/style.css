@@ -3588,7 +3588,9 @@ figcaption {
 }
 
 .grid-footer {
-    grid-template-columns: 2.8fr 1fr 1fr;
+    /* grid-template-columns: 2.8fr 1fr 1fr; */
+    -ms-grid-columns: 2fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 2fr;
 }
 @media screen and (min-width: 991px) {
     .grid-navbar {
