@@ -44,13 +44,14 @@ function insertHeader() {
                                 </div>
                             </div>
                         </div>
-                        <a href="`+ getRoot() +`careers" class="nav-link w-nav-link">Careers<br></a>
-                        <a href="`+ getRoot() +`features" class="nav-link w-nav-link hide">Features<br></a>
                         <a href="`+ getRoot() +`contact" class="nav-link w-nav-link">Contact<br></a>
-                        <a href="`+ getRoot() +`blog" class="nav-link w-nav-link hide">Blog<br></a>
-                        <a href="`+ getRoot() +`company" class="nav-link w-nav-link hide">Company<br></a>
                     </nav>
+                    <a data-w-id="eaf3ca25-4a9b-efa9-341b-8e26bf9b8a1f"
+                        style="padding: 8px 20px; font-size: 15px; opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+                        href="#get-started" class="button w-button eonyx-accent-pulse">Get a free quote</a>
                 </div>
+
+
                 <div data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0dc" class="nav right " style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="extra-nav-menu hide">
                         <a href="`+ getRoot() +`log-in" class="nav-link w-nav-link">Log in<br></a>

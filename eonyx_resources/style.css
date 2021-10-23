@@ -231,6 +231,29 @@ figcaption {
   justify-content: flex-end;
 }
 
+.eonyx-accent-pulse {
+	box-shadow: 0 0 0 0 #FF7F5010;
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		/* transform: scale(0.95); */
+		box-shadow: 0 0 0 0 #0c1d3750;
+	}
+
+	70% {
+		/* transform: scale(1); */
+		box-shadow: 0 0 0 10px #0c1d3720;
+	}
+
+	100% {
+		/* transform: scale(0.95); */
+		box-shadow: 0 0 0 0 #0c1d3710;
+	}
+}
+
 .logo {
   height: 26px;
   max-width: none;
