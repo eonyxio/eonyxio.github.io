@@ -81,14 +81,29 @@ function insertFooter() {
                 </div>
                 <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fc6" class="block-footer" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="heading-footer">Quick Links</div>
-                        <a href="`+ getRoot() +`company" aria-current="page" class="link-footer w--current  hide">Company<br></a>
-                        <a href="`+ getRoot() +`./" class="link-footer ">Home</a>
-                        <a href="`+ getRoot() +`careers" class="link-footer">Careers</a>
-                        <a href="`+ getRoot() +`apply" class="link-footer" target="_blank">Apply now</a>
-                        <a href="`+ getRoot() +`features" class="link-footer hide">Features</a>
-                        <a href="`+ getRoot() +`contact" class="link-footer">Contact</a>
-                        <a href="`+ getRoot() +`blog" class="link-footer  hide">Blog</a>
-                    </div>
+                    <a href="`+ getRoot() +`company" aria-current="page" class="link-footer w--current  hide">Company<br></a>
+                    <a href="`+ getRoot() +`./" class="link-footer ">Home</a>
+                    <a href="`+ getRoot() +`careers" class="link-footer">Careers at Eonyx</a>
+                    <a href="`+ getRoot() +`apply" class="link-footer" target="_blank">Apply now</a>
+                    <a href="`+ getRoot() +`features" class="link-footer hide">Features</a>
+                    <a href="`+ getRoot() +`contact" class="link-footer">Contact Us</a>
+                    <a href="`+ getRoot() +`blog" class="link-footer  hide">Blog</a>
+                </div>
+                <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fc6" class="block-footer" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+                    <div class="heading-footer">Services</div>
+                    <a class="link-footer" href="`+ getRoot() +`services/ios-app-development">iOS App Development</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/android-app-development">Android App Development</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/react-native-app-development">React Native App Development</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/web-design">Web Design</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/web-development">Web Development</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/software-development">Software Development</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/technical-architecture-design">Technical Architecture</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/software-consultancy">Software Consultancy</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/cloud-platform-management">Cloud Platform Management</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/api-design-and-development">API Development</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/software-services">Services &amp; Support</a>
+                    <a class="link-footer" href="`+ getRoot() +`services/software-integration">Software Integration</a>
+                </div>
                 <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fd2" class="block-footer hide" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="heading-footer">Social</div>
                         <a href="#" target="_blank" class="link-footer">Facebook<br></a>
