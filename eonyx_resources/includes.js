@@ -142,6 +142,56 @@ function insertStartBanner() {
     `)
 }
 
+function insertSteps(discover = '', design = '', develop = '', discoverTitle = 'Discover', designTitle = 'Design', developTitle = 'Develop') {
+    document.write(`
+    <div class="w-layout-grid grid-sequence">
+        <div data-w-id="Div Block 7"
+            style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+            class="sequence">
+            <div class="icon-sequence-bg" style="padding: 14px">
+                <div class="number-sequence-bg">
+                    <div class="number-sequence">1</div>
+                </div>
+                <img src="`+ getRoot() +`eonyx_assets/discover.svg" loading="lazy" style="width: 60px; height: 60px;" alt="" class="icon-sequence" width="35">
+            </div>
+            <h4 class="heading-sequence"><span class="text-accent">` + discoverTitle + `</span></h4>
+            <p class="paragraph-sequence">` + (discover ? discover : 'Discuss your business ideas with us in one-on-one in-depth discovery calls') + `.</p>
+        </div>
+        <img src="`+ getRoot() +`eonyx_assets/6024188faacdf6e123e5a0d8_arrow%25201.svg" loading="lazy"
+            style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+            data-w-id="Image" alt="" id="w-node-image-9512f16b" class="img-arrow---1">
+        <div data-w-id="5939fced-061f-0f25-e75e-7a91559b0cd7"
+            style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+            class="sequence">
+            <div class="icon-sequence-bg" style="padding: 14px">
+                <div class="number-sequence-bg">
+                    <div class="number-sequence">2</div>
+                </div>
+                <img src="`+ getRoot() +`eonyx_assets/design.svg" loading="lazy" alt="" style="width: 60px; height: 60px;" class="icon-sequence" width="35">
+            </div>
+            <h4 class="heading-sequence"><span class="text-accent">` + designTitle + `</span></h4>
+            <p class="paragraph-sequence">` + (design ? design : 'Evaluate the product and technical architecture designed for you by <span class="text-accent-secondary">Eonyx</span>') + `.</p>
+        </div>
+        <img src="`+ getRoot() +`eonyx_assets/6024188fbbb5c77ef01f5fac_arrow%25202.svg" loading="lazy"
+            style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+            data-w-id="8fdb0733-9c0b-9d9a-d4ac-47309542a143" alt=""
+            id="w-node-_8fdb0733-9c0b-9d9a-d4ac-47309542a143-9512f16b" class="img-arrow---2">
+        <div data-w-id="1dd55293-f75c-254b-cf9b-00c735c9a649"
+            style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+            class="sequence">
+            <div class="icon-sequence-bg" style="padding: 14px">
+                <div class="number-sequence-bg">
+                    <div class="number-sequence">3</div>
+                </div>
+                <img src="`+ getRoot() +`eonyx_assets/develop.svg" loading="lazy" alt="" style="width: 60px; height: 60px;" class="icon-sequence" width="35">
+            </div>
+            <h4 class="heading-sequence"><span class="text-accent">` + developTitle + `</span></h4>
+            <p class="paragraph-sequence">` + (develop ? develop : 'See your idea come to life with cutting-edge technology using the latest industry standards.') + `.</p>
+        </div>
+    </div>
+    `)
+}
+
 function insertTestimonial() {
     document.write(`
     <div class="section">
