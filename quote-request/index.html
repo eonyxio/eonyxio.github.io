@@ -46,14 +46,22 @@
 						</li>
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="budget">What's your budget?</label>
-							<input class="fs-mark fs-anim-lower" id="budget" name="budget" type="number" placeholder="10000" step="100" min="100"/>
+							<input class="fs-mark fs-anim-lower" id="budget" name="budget" type="number" placeholder="15000" step="10" min="100"/>
 						</li>
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="message">Anything else you'd like us to know?</label>
 							<textarea class="fs-anim-lower" id="message" name="message" placeholder="Message"></textarea>
 						</li>
 					</ol><!-- /fs-fields -->
-					<button class="fs-submit" type="button" onclick="quoteRequest()">Send</button>
+                    <div class="form-error-text" id="form-error-text" style="display: none;">Something went wrong. Please try again.</div>
+					<button id="btn-form-submit" class="fs-submit" type="button" onclick="quoteRequest()">
+                        <span id="btn-text">Send</span>
+                        <svg id="confirmation-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto; display:none;" width="30px" height="30px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                            <circle cx="50" cy="50" r="32" stroke-width="8" stroke="#ff7f50" stroke-dasharray="50.26548245743669 50.26548245743669" fill="none" stroke-linecap="round">
+                              <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" keyTimes="0;1" values="0 50 50;360 50 50"></animateTransform>
+                            </circle>
+                         </svg>
+                    </button>
 				</form><!-- /fs-form -->
 			</div><!-- /fs-form-wrap -->
 
@@ -97,6 +105,10 @@
 					return
 				}
 
+                $('#btn-form-submit').prop('disabled', true)
+                $('#form-error-text').css("display", "none");
+                $('#btn-text').css("display", "none");
+                $('#confirmation-icon').css("display", "block");
 				$('#contact-loading').removeClass('hide')
 
 				let name = $('#name').val()
@@ -123,6 +135,7 @@
 					.then(d => {
 						$('#contact-loading').addClass('hide')
 						if (d == 'success') {
+                            window.location.replace("./thank-you");
 							$('#contact-success').removeClass('hide')
 							$('#name').val('')
 							$('#email').val('')
@@ -131,9 +144,22 @@
 							$('#budget').val('')
 							$('#services').val('')
 						} else {
+                            $('#form-error-text').css("display", "block");
+                            $('#btn-text').css("display", "block");
+                            $('#confirmation-icon').css("display", "none");
 							$('#contact-error').removeClass('hide')
 						}
-					})
+					}).catch(e => {
+                        $('#form-error-text').css("display", "block");
+                        $('#btn-text').css("display", "block");
+                        $('#confirmation-icon').css("display", "none");
+                    })
+
+                    setTimeout(() => {
+                        window.location.href = "./thank-you";
+                    }, 3000);
+
+                    $('#btn-form-submit').prop('disabled', false)
 			}
 		</script>
 	</body>
