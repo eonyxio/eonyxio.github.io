@@ -220,7 +220,7 @@ function insertSteps(discover = '', design = '', develop = '', discoverTitle = '
 
 function insertTestimonial() {
     document.write(`
-    <div class="section">
+    <div class="section hide">
         <div class="content">
             <div id="w-node-div-block-15-9512f16b" data-w-id="Div Block 15" class="block-left" style=" padding-right: 0; margin-bottom: 15px; ">
                 <h2 data-w-id="feb86f04-9b03-b314-7698-5351e304e5b2" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">What clients say about us</h2>
