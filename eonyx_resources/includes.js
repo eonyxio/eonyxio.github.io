@@ -388,6 +388,66 @@ function insertBrandsBanner() {
 }
 
 
+function insertTechStack() {
+    document.write(`
+    <div class="section section-brands-banner">
+        <div class="content-title">Tech Stack</div>
+        <div class="content" style="display: flex; justify-content: space-between; flex-direction: row; flex-wrap: wrap;">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/amazonwebservices-original.svg?size=96&color=currentColor" alt="Amazonwebservices" title="Amazonwebservices">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg" alt="Digitalocean" title="Digitalocean">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/git-original.svg?size=96&color=currentColor" alt="Git" title="Git">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/github-original.svg?size=96&color=currentColor" alt="Github" title="Github">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/gitlab-original.svg?size=96&color=currentColor" alt="Gitlab" title="Gitlab">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" alt="PHP" title="PHP">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" alt="Composer" title="Composer">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/laravel-plain.svg?size=96&color=ff2d20" alt="Laravel" title="Laravel">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/codeigniter-plain.svg?size=96&color=dd4814" alt="Codeigniter" title="Codeigniter">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="Wordpress" title="Wordpress">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/mysql-original-wordmark.svg?size=96&color=currentColor" alt="Mysql" title="Mysql">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/redis-original.svg?size=96&color=currentColor" alt="Redis" title="Redis">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" title="Linux">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/ubuntu-plain.svg?size=96&color=e95420" alt="Ubuntu" title="Ubuntu">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/windows8-original.svg?size=96&color=currentColor" alt="Windows8" title="Windows8">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/apple-original.svg?size=96&color=currentColor" alt="Apple" title="Apple">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/android-original.svg?size=96&color=currentColor" alt="Android" title="Android">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/docker-original.svg?size=96&color=currentColor" alt="Docker" title="Docker">
+            <img style="width: 96px; margin: 10px;" src="https://afaan.dev/assets/traefik-icon.svg" alt="Traefik" title="Traefik">
+            <img style="width: 96px; margin: 10px;" src="https://afaan.dev/assets/cloudflare.svg" alt="Cloudflare" title="Cloudflare">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/html5-original.svg?size=96&color=currentColor" alt="Html5" title="Html5">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/css3-original.svg?size=96&color=currentColor" alt="Css3" title="Css3">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SASS" title="SASS">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/bootstrap-plain.svg?size=96&color=7952b3" alt="Bootstrap" title="Bootstrap">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" title="Tailwind">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/javascript-original.svg?size=96&color=currentColor" alt="Javascript" title="Javascript">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/vuejs-original.svg?size=96&color=currentColor" alt="Vuejs" title="Vuejs">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/react-original.svg?size=96&color=currentColor" alt="React" title="React">
+            <img style="width: 96px; margin: 10px;" src="https://afaan.dev/assets/react-native.svg" alt="React Native" title="React Native">
+            <img style="width: 96px; margin: 10px;" src="https://afaan.dev/assets/expo.svg" alt="Expo" title="Expo">
+            <img style="width: 96px; margin: 10px;" src="https://afaan.dev/assets/zapier.svg" alt="Zapier" title="Zapier">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/jquery-original.svg?size=96&color=currentColor" alt="Jquery" title="Jquery">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/python-original.svg?size=96&color=currentColor" alt="Python" title="Python">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/c-original.svg?size=96&color=currentColor" alt="C" title="C">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/cplusplus-original.svg?size=96&color=currentColor" alt="Cplusplus" title="Cplusplus">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/csharp-original.svg?size=96&color=currentColor" alt="Csharp" title="Csharp">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/java-original.svg?size=96&color=currentColor" alt="Java" title="Java">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" alt="DotNet" title="DotNet">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/apache-original.svg?size=96&color=currentColor" alt="Apache" title="Apache">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/ssh-original-wordmark.svg?size=96&color=currentColor" alt="Ssh" title="Ssh">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/inkscape/inkscape-original.svg" alt="Inkscape" title="Inkscape">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" title="Bash">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Vscode" title="Vscode">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/visualstudio-plain.svg?size=96&color=currentColor" alt="Visualstudio" title="Visualstudio">
+            <img style="width: 96px; margin: 10px;" src="https://afaan.dev/assets/postman.svg" alt="Postman" title="Postman">
+            <img style="width: 96px; margin: 10px;" src="https://www.devart.com/images/products/logos/dbforge-mysql-studio.svg" alt="DbForge Studio" title="DbForge Studio">
+            <img style="width: 96px; margin: 10px;" src="https://icongr.am/devicon/trello-plain.svg?size=96&color=026aa7" alt="Trello" title="Trello">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" title="Figma">
+            <img style="width: 96px; margin: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="Slack" title="Slack">
+        </div>
+    </div>
+    `)
+}
+
 // slider
 var sliderInterval = null
 function setSliderTimer() {
