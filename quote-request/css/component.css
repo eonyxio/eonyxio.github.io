@@ -848,7 +848,7 @@ input[type=text]::-ms-clear {
 		right: 25px;
 	}
 
-	button.fs-continue {
+	/* button.fs-continue {
 		right: 20px;
 		bottom: 20px;
 		margin: 0;
@@ -857,9 +857,9 @@ input[type=text]::-ms-clear {
 		height: 50px;
 		border-radius: 50%;
 		font-size: 2em;
-	}
+	} */
 
-	button.fs-continue::before {
+	/* button.fs-continue::before {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -869,11 +869,16 @@ input[type=text]::-ms-clear {
 		text-align: center;
 		font-size: 1em;
 		line-height: 50px;
+	} */
+
+	/* .fs-continue::after {
+		content: '';
+	} */
+
+    .fs-continue {
+        left: calc(50% - 55px);
 	}
 
-	.fs-continue::after {
-		content: '';
-	}
 
 	button.fs-submit {
 		width: 100%;
