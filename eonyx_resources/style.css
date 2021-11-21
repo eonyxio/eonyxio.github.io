@@ -3775,6 +3775,20 @@ a.dropdown-btn.nav-link.w-nav-link:after {
     filter: grayscale(1);
 }
 
+@media screen and (max-width: 600px) {
+    .section-brands-banner .brand-image {
+        margin: 0 5px;
+    }
+    .section-brands-banner .brand-image img {
+        height: 25px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .section-brands-banner .brand-image img {
+        height: 15px;
+    }
+}
+
 
 /* Slides */
 .mySlides {display: none}
