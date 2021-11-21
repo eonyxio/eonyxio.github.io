@@ -47,8 +47,7 @@ function insertHeader() {
                         <a href="`+ getRoot() +`contact" class="nav-link w-nav-link">Contact<br></a>
                     </nav>
                     <a  class="btn-quote-desktop button w-button eonyx-accent-pulse"
-                        style="margin-left: 25px; padding: 8px 20px; font-size: 15px; opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-                        data-w-id="eaf3ca25-4a9b-efa9-341b-8e26bf9b8a1f"
+                    style="margin-left: 25px; padding: 8px 20px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                         href="`+ getRoot() +`/quote-request">Get a free quote</a>
                 </div>
 
@@ -64,8 +63,7 @@ function insertHeader() {
                 </div>
             </div>
             <a  class="btn-quote-mobile button w-button eonyx-accent-pulse"
-                style="margin-left: 25px; padding: 8px 20px; font-size: 15px; opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-                data-w-id="eaf3ca25-4a9b-efa9-341b-8e26bf9b8a1f"
+                style="margin-left: 25px; margin-top: 15px; margin-bottom: 10px; padding: 8px 40px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                 href="`+ getRoot() +`/quote-request">Get a free quote</a>
             <div class="navbar-bg" style="opacity: 1;"></div>
             <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>

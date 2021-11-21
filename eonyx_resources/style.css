@@ -3976,4 +3976,7 @@ img {vertical-align: middle;}
     .btn-quote-mobile {
         display: block;
     }
+    .section-hero {
+        padding-top: 180px;
+    }
 }
