@@ -1,0 +1,9 @@
+<meta property="og:locale" content="nl_NL" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Overkapping Breda" />
+<meta property="og:description" content="Overkapping Breda is het juiste adres voor een Douglas overkapping. Onze houten overkappingen worden naar uw wens op maat gemaakt." />
+<meta property="og:url" content="https://overkappingbreda.nl/" />
+<meta property="og:site_name" content="Overkapping Breda" />
+<meta property="og:image" content="https://overkappingbreda.nl/wp-content/uploads/2019/03/DSC_5818_340x340.jpg" />
+<meta property="og:image:secure_url" content="https://overkappingbreda.nl/wp-content/uploads/2019/03/DSC_5818_340x340.jpg" />
+<meta property="og:image:width" content="340" />
