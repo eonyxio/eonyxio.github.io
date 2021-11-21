@@ -2052,6 +2052,14 @@ figcaption {
   align-items: center;
   text-align: left;
 }
+@media screen and (min-width: 479px) {
+    .contact-information {
+        align-items: flex-start;
+    }
+}
+.info-contact {
+    padding-top: 15px;
+}
 
 .icon-contact-bg {
   display: -webkit-box;
