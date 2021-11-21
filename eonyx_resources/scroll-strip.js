@@ -1,23 +1,23 @@
 
-function startAnim(blockName, blockWidth) {
+function startAnim(elementID, elementWidth) {
     function restart() {
-        $('#' + blockName + '.tech-stack').first().css({
+        $('#' + elementID + '.tech-stack').first().css({
             'margin-left': '0px'
         });
         start();
     }
 
     function start() {
-        var techStack = $('#' + blockName + '.tech-stack').first(),
-            duration = (blockWidth * 20);
+        var techStack = $('#' + elementID + '.tech-stack').first(),
+            duration = (elementWidth * 20);
 
         techStack.animate({
-            'margin-left': '-' + blockWidth + 'px'
+            'margin-left': '-' + elementWidth + 'px'
         }, duration, 'linear', restart);
     }
 
-    $('#' + blockName + '.tech-stack img').hover(() => {
-        $('#' + blockName + '.tech-stack').first().stop();
+    $('#' + elementID + '.tech-stack img').hover(() => {
+        $('#' + elementID + '.tech-stack').first().stop();
     }, () => { start(); });
 
     start();
