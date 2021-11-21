@@ -25,44 +25,48 @@
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://eonyx.io/android-app-development</loc>
+  <loc>https://eonyx.io/services/ios-app-development</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/api-design-and-development</loc>
+  <loc>https://eonyx.io/services/android-app-development</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/cloud-platform-management</loc>
+  <loc>https://eonyx.io/services/web-development</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/ios-app-development</loc>
+  <loc>https://eonyx.io/services/api-design-and-development</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/react-native-app-development</loc>
+  <loc>https://eonyx.io/services/cloud-platform-management</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/software-consultancy</loc>
+  <loc>https://eonyx.io/services/react-native-app-development</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/software-development</loc>
+  <loc>https://eonyx.io/services/software-consultancy</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/software-integration</loc>
+  <loc>https://eonyx.io/services/software-development</loc>
+  <lastmod>2021-11-21T14:12:16+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://eonyx.io/services/software-integration</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
@@ -72,22 +76,17 @@
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/software-support</loc>
+  <loc>https://eonyx.io/services/software-support</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/technical-architecture-design</loc>
+  <loc>https://eonyx.io/services/technical-architecture-design</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://eonyx.io/web-design</loc>
-  <lastmod>2021-11-21T14:12:16+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://eonyx.io/web-development</loc>
+  <loc>https://eonyx.io/services/web-design</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
