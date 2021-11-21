@@ -3707,6 +3707,19 @@ body {
     display: flex;
 }
 
+
+@media screen and (max-width: 990px) {
+    .dropdown-content.nav-bar {
+        min-width: 280px;
+        margin-left: -80px;
+    }
+    .dropdown:hover .dropdown-content.nav-bar {
+        display: block;
+    }
+
+}
+
+
 @media screen and (max-width: 684px) {
     .dropdown-content.nav-bar {
         min-width: 190px;
@@ -3987,7 +4000,11 @@ img {vertical-align: middle;}
     .section-hero {
         padding-top: 180px;
     }
+    .page-head {
+        padding-top: 60px;
+    }
 }
+
 
 .tech-stack-container {
     display: flex;
