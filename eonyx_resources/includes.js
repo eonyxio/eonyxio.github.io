@@ -151,7 +151,7 @@ function insertStartBanner() {
                     <h2 class="heading white">Start your project with Eonyx</h2>
                     <p class="paragraph white">Enter your email to get started.</p>
                     <div class="form-block-banner w-form">
-                        <form id="email-form" name="email-form" data-name="Email Form" method="get" action="contact"  class="form-banner"><input type="email" class="text-field-white w-input" maxlength="256" name="email" data-name="Email" placeholder="Your email" id="Email" required=""><input type="submit" value="Get Started!" data-wait="Please wait..." class="submit-button-white w-button"></form>
+                        <form id="email-form" name="email-form" data-name="Email Form" method="get" action="`+ getRoot() +`/quote-request"  class="form-banner"><input type="email" class="text-field-white w-input" maxlength="256" name="email" data-name="Email" placeholder="Your email" id="Email" required=""><input type="submit" value="Get Started!" data-wait="Please wait..." class="submit-button-white w-button"></form>
                         <div
                             class="success-message w-form-done">
                             <div class="success-text">Thank you! Your submission has been received!</div>

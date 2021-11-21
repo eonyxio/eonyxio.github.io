@@ -158,5 +158,18 @@
                     $('#btn-form-submit').prop('disabled', false)
 			}
 		</script>
+        <script>
+            //Append variables to form
+            var params = [];
+            var items = window.location.search.substr(1).split("&");
+            for (var index = 0; index < items.length; index++) {
+                params = items[index].split("=");
+                if (params[0] == 'email') {
+                    $("#email").val(decodeURIComponent(params[1]))
+                }
+
+            }
+            //Append variables to form
+        </script>
 	</body>
 </html>
