@@ -11,7 +11,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-<url>
   <loc>https://eonyx.io/quote-request/</loc>
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.80</priority>
@@ -92,5 +91,4 @@
   <lastmod>2021-11-21T14:12:16+00:00</lastmod>
   <priority>0.70</priority>
 </url>
-
 </urlset>
