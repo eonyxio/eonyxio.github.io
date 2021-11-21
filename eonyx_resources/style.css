@@ -3988,3 +3988,22 @@ img {vertical-align: middle;}
         padding-top: 180px;
     }
 }
+
+.tech-stack-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.tech-stack-container .tech-stack {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 45px;
+}
+.tech-stack-container .tech-stack-list {
+    display: contents;
+}
+.tech-stack-container .tech-stack-list .tech-stack-item {
+    width: 56px;
+    margin: 10px 18px;
+}
