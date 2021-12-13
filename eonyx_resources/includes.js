@@ -82,8 +82,7 @@ function insertFooter() {
                         <h6>Eonyx Infotech LLP</h6>
                         137, Lane 1, <br>Iqbal Abad, Bemina, Srinagar,<br>Jammu and Kashmir - 190018
                         <br><br>
-                        <b>+91 7006009207<br></b>
-                        +1 209-440-4252<br>
+                        <b>+91 7006009207</b><br>
                         <br><a href="mailto:info@eonyx.io">info@eonyx.io</a>
                     </p>
                 </div>
