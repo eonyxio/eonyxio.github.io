@@ -43,13 +43,12 @@
     <link href="eonyx_assets/favicon.png" rel="apple-touch-icon">
     <style>
         #fade-change-text {
-            animation: fade 2s linear infinite;
+            animation: fade 2s ease-in-out infinite;
         }
 
         @keyframes fade {
             0%, 100% { opacity: 0 }
-            25% { opacity: 1 }
-            75% { opacity: 1 }
+            25%, 75% { opacity: 1 }
         }
     </style>
 </head>
@@ -345,7 +344,7 @@
         setInterval(() => {
             $('#fade-change-text').text(highlights[++atIndex]);
             if (atIndex == highlights.length) { atIndex = 0; }
-        }, 2000);
+        }, 1990);
     </script>
 
 </body>
