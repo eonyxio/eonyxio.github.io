@@ -343,7 +343,7 @@
         let atIndex = 0;
         setInterval(() => {
             $('#fade-change-text').text(highlights[++atIndex]);
-            if (atIndex == highlights.length) { atIndex = 0; }
+            if (atIndex == highlights.length) { atIndex = -1; }
         }, 1990);
     </script>
 
