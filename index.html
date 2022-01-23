@@ -336,10 +336,12 @@
                 $('#fade-change-text').text(highlights[++atIndex]);
                 if (atIndex == highlights.length - 1) { atIndex = -1; }
             }, 2000);
+
+            $('#fade-change-text').addClass('fade-change-text');
         })();
     </script>
     <style>
-        #fade-change-text {
+        .fade-change-text {
             animation: fade 2s ease-in-out infinite;
         }
 
