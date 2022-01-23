@@ -319,22 +319,24 @@
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
     <script>
-        let highlights = [
-            'build apps',
-            'create APIs',
-            'design websites',
-            'develop software',
-            'design UI',
-            'architect UX',
-            'create automations',
-            'integrate software',
-        ];
+        (function() {
+            let highlights = [
+                'build apps',
+                'create APIs',
+                'design websites',
+                'develop software',
+                'design UI',
+                'architect UX',
+                'create automations',
+                'integrate software',
+            ];
 
-        let atIndex = 0;
-        setInterval(() => {
-            $('#fade-change-text').text(highlights[++atIndex]);
-            if (atIndex == highlights.length - 1) { atIndex = -1; }
-        }, 1999);
+            let atIndex = 0;
+            setInterval(() => {
+                $('#fade-change-text').text(highlights[++atIndex]);
+                if (atIndex == highlights.length - 1) { atIndex = -1; }
+            }, 1999);
+        })();
     </script>
     <style>
         #fade-change-text {
