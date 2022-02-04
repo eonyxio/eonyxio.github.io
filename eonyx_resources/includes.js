@@ -226,7 +226,7 @@ function insertSteps(discover = '', design = '', develop = '', discoverTitle = '
 
 function insertTestimonial() {
     document.write(`
-    <div class="section hide">
+    <div class="section">
         <div class="content">
             <div id="w-node-div-block-15-9512f16b" data-w-id="Div Block 15" class="block-left" style=" padding-right: 0; margin-bottom: 15px; ">
                 <h2 data-w-id="feb86f04-9b03-b314-7698-5351e304e5b2" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">What clients say about us</h2>
@@ -243,7 +243,7 @@ function insertTestimonial() {
                                 <a href="https://www.stamats.com/author/james-vineburgh/" target="_blank">
                                     <div class="client-info">
                                         <div class="name">Dr. James Vineburgh</div>
-                                        <div class="info">Chief Products Officer at Stamats Communications</div>
+                                        <div class="info">Chief Products Officer at Stamats Communications, Inc.</div>
                                     </div>
                                 </a>
                             </div>
@@ -256,30 +256,12 @@ function insertTestimonial() {
                         <img src="https://liferamp360.com/wp-content/uploads/2021/08/LifeRamp-Team_huckaby.png" />
                         </div>
                         <div class="testimonial-content">
-                            <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
+                            <p class="paragraph-testimonial">Eonyx has been the perfect partner for us to unlock our vision at LifeRamp. The team is very innovative and always comes with fresh ideas while achieving key milestones on time.</p>
                             <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                                <a href="https://www.stamats.com/author/james-vineburgh/" target="_blank">
+                                <a href="https://liferamp360.com/meet-the-team/" target="_blank">
                                     <div class="client-info">
                                         <div class="name">Michael Huckaby</div>
-                                        <div class="info">Founder & CEO at LifeRamp Inc.</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="eonyxSlides fade">
-                    <div class="testimonial eonyx-testimonial">
-                        <div class="testimonial-image">
-                        <img src="https://www.stamats.com/wp-content/uploads/2020/03/bill-stamats-sqo.jpg" />
-                        </div>
-                        <div class="testimonial-content">
-                            <p class="paragraph-testimonial">Eonyx is an incredibly talented and versatile group of digital solutions experts. And, they do so much more than just develop solutions; they take ideas that are brought to them and then make those ideas better before transforming them into products. Additionally, they are top-notch in terms of timeliness, value delivered, and general professionalism. Plus, they're fun to work with!</p>
-                            <div class="client"><img src="`+ getRoot() +`eonyx_assets/6025ab6ccd88b4ecc2780f82_client%2520avatar.svg" loading="lazy" alt="" class="client-avatar">
-                                <a href="https://www.stamats.com/author/james-vineburgh/" target="_blank">
-                                    <div class="client-info">
-                                        <div class="name">Dr. James Vineburgh</div>
-                                        <div class="info">Chief Products Officer at Stamats Communications</div>
+                                        <div class="info">Founder & CEO at LifeRamp, Inc.</div>
                                     </div>
                                 </a>
                             </div>
@@ -293,13 +275,12 @@ function insertTestimonial() {
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </div>
     </div>
-    `)
+    `);
     showSlide(slideIndex);
-    setSliderTimer()
+    setSliderTimer();
 }
 
 function insertPortfolio() {
