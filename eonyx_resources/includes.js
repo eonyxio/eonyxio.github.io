@@ -83,7 +83,8 @@ function insertFooter() {
                         137, Lane 1, <br>Iqbal Abad, Bemina, Srinagar,<br>Jammu and Kashmir - 190018
                         <br><br>
                         <b>+91 7006009207</b><br>
-                        <a href="mailto:info@eonyx.io">info@eonyx.io</a>
+                        <a href="mailto:info@eonyx.io">info@eonyx.io</a><br><br>
+                        <img src="`+ getRoot() +`eonyx_assets/ISO_9001-2015_certified.png" style="width: 64px;" />
                     </p>
                 </div>
                 <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fc6" class="block-footer" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
