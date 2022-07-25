@@ -138,6 +138,7 @@ function insertFooter() {
         </div>
     </div>
     <!-- Start of HubSpot Embed Code --><script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20288898.js"></script><!-- End of HubSpot Embed Code -->
+    <script src="https://sc.eonyx.io/index.js" data-o="eonyx"></script>
     `)
 }
 
