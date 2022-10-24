@@ -50,9 +50,16 @@ function insertHeader() {
                     style="margin-left: 25px; padding: 8px 20px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                         href="`+ getRoot() + `/quote-request">Get a free quote</a>
                 </div>
-
-
-                <div data-w-id="083b3595-12c0-3eb5-8a08-5d830155c0dc" class="nav right " style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+                
+                <div style="position: absolute; bottom: -30px; left: 0; padding: 10px 0; display: flex; justify-content: center; background-color: #FF7F40; width: 100%">
+                    <div style="color: white; font-weight: bold; font-size: 18px;">
+                    We're hiring &rarr;
+                    <a  class="button w-button eonyx-accent-pulse" style="margin-left: 5px; padding: 8px 20px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                        href="`+ getRoot() + `/apply">Apply now!</a>
+                    </div>
+                </div>
+                
+                <div data-w-id="083b359512c0-3eb5-8a08-5d830155c0dc" class="nav right " style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="extra-nav-menu hide">
                         <a href="`+ getRoot() + `log-in" class="nav-link w-nav-link">Log in<br></a>
                         <a href="`+ getRoot() + `sign-up" class="nav-button w-button">Sign up</a>
@@ -63,7 +70,7 @@ function insertHeader() {
                 </div>
             </div>
             <a  class="btn-quote-mobile button w-button eonyx-accent-pulse"
-                style="margin-left: 25px; margin-top: 15px; margin-bottom: 10px; padding: 8px 40px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                style="display:none; margin-left: 25px; margin-top: 15px; margin-bottom: 10px; padding: 8px 40px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                 href="`+ getRoot() + `/quote-request">Get a free quote</a>
             <div class="navbar-bg" style="opacity: 1;"></div>
             <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
