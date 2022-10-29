@@ -523,6 +523,6 @@ function logEonyx() {
 
     console.log(`
     We're hiring! Come join us to build a new future.
-    Apply here: https://eonyx.io/apply?email=%c[your-email]%c&utm_scid=814baa6c-604a-453b-bf62-a8d7cc748722` , 'color: coral', ""
+    Apply here: https://eonyx.io/apply?email=%c[your-email]%c&utm_scid=814baa6c-604a-453b-bf62-a8d7cc748722` , 'color: coral', ''
     )
 }
