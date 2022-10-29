@@ -522,7 +522,7 @@ function logEonyx() {
     `, 'color: coral');
 
     console.log(`
-        We're hiring! Come join us to build a new future.
-        Apply here: https://eonyx.io/apply?utm_scid=814baa6c-604a-453b-bf62-a8d7cc748722&` + "%cemail=[your email]", 'color: coral'
+    We're hiring! Come join us to build a new future.
+    Apply here: https://eonyx.io/apply?email=%c[your-email]%c&utm_scid=814baa6c-604a-453b-bf62-a8d7cc748722` , 'color: coral', ""
     )
 }
