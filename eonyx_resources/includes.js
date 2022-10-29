@@ -51,7 +51,7 @@ function insertHeader() {
                         href="`+ getRoot() + `/quote-request">Get a free quote</a>
                 </div>
 
-                <div style="position: absolute; bottom: -40px; left: 0; padding: 10px 0; display: flex; justify-content: center; background-color: #FF7F40; width: 100%">
+                <div style="position: absolute; z-index: -1; bottom: -40px; left: 0; padding: 10px 0; display: flex; justify-content: center; background-color: #FF7F40; width: 100%">
                     <div style="color: white; font-weight: bold; font-size: 18px;">
                     We're hiring &rarr;
                     <a  class="button w-button eonyx-accent-pulse" style="margin-left: 5px; padding: 8px 20px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
@@ -518,6 +518,7 @@ function logEonyx() {
                                                              y:::::y
                                                             yyyyyyy
 
-
+    We're hiring! Come join us to build a new future.
+    Apply here: https://eonyx.io/apply?utm_scid=814baa6c-604a-453b-bf62-a8d7cc748722&email=[your email]
     `);
 }
