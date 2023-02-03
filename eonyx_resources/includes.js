@@ -50,15 +50,15 @@ function insertHeader() {
                     style="margin-left: 25px; padding: 8px 20px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                         href="`+ getRoot() + `/quote-request">Get a free quote</a>
                 </div>
-                
-                <div style="position: absolute; bottom: -30px; left: 0; padding: 10px 0; display: flex; justify-content: center; background-color: #FF7F40; width: 100%">
+
+                <div style="position: absolute; z-index: -1; bottom: -40px; left: 0; padding: 10px 0; display: flex; display: none; justify-content: center; background-color: #FF7F40; width: 100%">
                     <div style="color: white; font-weight: bold; font-size: 18px;">
                     We're hiring &rarr;
                     <a  class="button w-button eonyx-accent-pulse" style="margin-left: 5px; padding: 8px 20px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                        href="`+ getRoot() + `/apply">Apply now!</a>
+                        href="`+ getRoot() + `apply">Apply now!</a>
                     </div>
                 </div>
-                
+
                 <div data-w-id="083b359512c0-3eb5-8a08-5d830155c0dc" class="nav right " style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="extra-nav-menu hide">
                         <a href="`+ getRoot() + `log-in" class="nav-link w-nav-link">Log in<br></a>
@@ -71,7 +71,7 @@ function insertHeader() {
             </div>
             <a  class="btn-quote-mobile button w-button eonyx-accent-pulse"
                 style="display:none; margin-left: 25px; margin-top: 15px; margin-bottom: 10px; padding: 8px 40px; font-size: 15px; opacity: 1; translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                href="`+ getRoot() + `/quote-request">Get a free quote</a>
+                href="`+ getRoot() + `quote-request">Get a free quote</a>
             <div class="navbar-bg" style="opacity: 1;"></div>
             <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
         </div>
@@ -146,7 +146,6 @@ function insertFooter() {
         </div>
     </div>
     <!-- Start of HubSpot Embed Code --><script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20288898.js"></script><!-- End of HubSpot Embed Code -->
-    <script src="https://sc.eonyx.io/index.js" data-o="eonyx"></script>
     `)
 }
 
@@ -493,7 +492,7 @@ function showSlide(n) {
 // slider
 
 function logEonyx() {
-    console.log(`
+    console.log(`%c
 
 
 
@@ -520,5 +519,10 @@ function logEonyx() {
                                                             yyyyyyy
 
 
-    `);
+    `, 'color: coral');
+
+    console.log(`
+    We're hiring! Come join us to build a new future.
+    Apply here: https://eonyx.io/apply?email=%c[your-email]%c&utm_scid=814baa6c-604a-453b-bf62-a8d7cc748722` , 'color: coral', ''
+    )
 }
