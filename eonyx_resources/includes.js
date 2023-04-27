@@ -102,6 +102,8 @@ function insertFooter() {
                     <a href="`+ getRoot() + `features" class="link-footer hide">Features</a>
                     <a href="`+ getRoot() + `contact" class="link-footer">Contact Us</a>
                     <a href="`+ getRoot() + `blog" class="link-footer  hide">Blog</a>
+                    <a href="`+ getRoot() + `privacy" class="link-footer">Privacy policy</a>
+                    <a href="`+ getRoot() + `contact" class="link-footer hide">Contact Us</a>
                 </div>
                 <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fc6" class="block-footer" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="heading-footer">Services</div>
