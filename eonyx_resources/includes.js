@@ -91,7 +91,11 @@ function insertFooter() {
                         <br><br>
                         <b>+91 7006009207</b><br>
                         <a href="mailto:info@eonyx.io">info@eonyx.io</a><br><br>
-                        <img src="`+ getRoot() +`eonyx_assets/ISO_9001-2015_certified.png" style="width: 64px;" />
+                        <div class="social-media-links">
+                            <a href="https://www.linkedin.com/company/eonyx/" target="_blank"><img src="`+ getRoot() + `images/portfolio/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
+                            <a href="https://www.instagram.com/eonyx_io/" target="_blank"><img src="`+ getRoot() + `images/portfolio/Instagram_icon.png" alt="Instagram"></a>
+                        </div>
+                        <img src="`+ getRoot() + `eonyx_assets/ISO_9001-2015_certified.png" style="width: 64px;" />
                     </p>
                 </div>
                 <div data-w-id="da92ec24-0a93-58e4-1a73-58ed5b0e2fc6" class="block-footer" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
@@ -295,6 +299,58 @@ function insertTestimonial() {
     setSliderTimer();
 }
 
+function insertRecentBlogs() {
+    document.write(`
+    <div class="section">
+        <div class="content">
+            <div class="block-center">
+                <h2 data-w-id="ac1c39f6-3071-f098-aec3-9337033bdfe6" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">Recent Blogs</h2>
+            </div>
+            <div class="collection-list-wrapper w-dyn-list">
+                <div role="list" class="collection-list w-dyn-items">
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7165991095653416960/" target="_blank" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio//1280px-Amazon_Web_Services_Logo.svg.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7165991095653416960/" target="_blank"class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">Unveiling the Wonders of AWS✨</h5>
+                            </a>
+                            <div class="date-blog hide">2021</div>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7122846449066741760/" target="_blank" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/laravel-logo.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7122846449066741760/" target="_blank" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">Unleashing the Power of Laravel</h5>
+                            </a>
+                            <div class="date-blog hide">2021</div>
+                        </div>
+                    </div>
+                   <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="https://www.linkedin.com/posts/eonyx_tailwindcss-softwaredevelopment-webdevelopment-activity-7105421559489568768-_-SS?utm_source=share&utm_medium=member_desktop" target="_blank" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio//tailwind-css-logo.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
+                            <a href="https://www.linkedin.com/posts/eonyx_tailwindcss-softwaredevelopment-webdevelopment-activity-7105421559489568768-_-SS?utm_source=share&utm_medium=member_desktop" target="_blank" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">Elevate your style game with Tailwind CSS!</h5>
+                            </a>
+                            <div class="date-blog hide">2021</div>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="https://www.linkedin.com/posts/eonyx_linkedincommunity-reactdevelopment-frontendmastery-activity-7098587991769571328-9myx?utm_source=share&utm_medium=member_desktop" target="_blank" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio//React-js.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
+                            <a href="https://www.linkedin.com/posts/eonyx_linkedincommunity-reactdevelopment-frontendmastery-activity-7098587991769571328-9myx?utm_source=share&utm_medium=member_desktop" target="_blank" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">Navigating the Spectrum of React Development! 🚀</h5>
+                            </a>
+                            <div class="date-blog hide">2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+    `)
+}
+
 function insertPortfolio() {
     document.write(`
     <div class="section">
@@ -304,6 +360,79 @@ function insertPortfolio() {
             </div>
             <div class="collection-list-wrapper w-dyn-list">
                 <div role="list" class="collection-list w-dyn-items">
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/OumaVH.png" loading="lazy" alt="Visit history" class="image-blog"></a>
+                            <div class="category-blog">Web</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
+                            </a>
+                        </div>
+                    </div>                
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Salah1.png" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
+                            <div class="category-blog">Android</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2023</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Salah.png" loading="lazy" alt="Salah" class="image-blog"></a>
+                            <div class="category-blog">iOS</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2023</h5>
+                            </a>
+                        </div>
+                    </div>
+                        <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/OumaBI.png" loading="lazy" alt="Responsive design" class="image-blog"></a>
+                            <div class="category-blog">Web</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
+                            </a>
+                            <div class="date-blog hide">2023</div>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Responsive.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <div class="category-blog">Responsive design</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2023</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Oumaresponsive.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <div class="category-blog">Responsive Design</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2022</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/surecatchDash-front.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <div class="category-blog">Web</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2022</h5>
+                            </a>
+                        </div>
+                    </div>
+                       <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/profiles-front.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <div class="category-blog">Web</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2022</h5>
+                            </a>
+                        </div>
+                    </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
                             <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/liferamp-desktop.png" loading="lazy" alt="5 Technologies that are true student helpers these days" class="image-blog"></a>
@@ -320,7 +449,6 @@ function insertPortfolio() {
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
                             </a>
-                            <div class="date-blog hide">2021</div>
                         </div>
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
@@ -342,7 +470,7 @@ function insertPortfolio() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>     
         </div>
     </div>
     `)
@@ -354,7 +482,7 @@ function insertBrandsBanner() {
     <div class="section section-brands-banner">
         <div class="content-title">Trusted by the world's best</div>
         <div class="content">
-            <div class="w-layout-grid grid-5-columns">
+            <div class="w-layout-grid grid-6-columns">
                 <div class="w-layout-grid grid-row" data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="brand-image">
                         <img src="`+ getRoot() + `images/clients/LifeRamp.svg" />
@@ -378,6 +506,11 @@ function insertBrandsBanner() {
                 <div class="w-layout-grid grid-row" data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
                     <div class="brand-image">
                         <img src="`+ getRoot() + `images/clients/AMS_logo.png" />
+                    </div>
+                </div>
+                  <div class="w-layout-grid grid-row" data-w-id="Grid 9" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;">
+                    <div class="brand-image">
+                        <img src="`+ getRoot() + `images/clients/ouma-logo.svg" />
                     </div>
                 </div>
             </div>
