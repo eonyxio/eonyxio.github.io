@@ -310,11 +310,10 @@ function insertRecentBlogs() {
                 <div role="list" class="collection-list w-dyn-items">
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7165991095653416960/" target="_blank" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio//1280px-Amazon_Web_Services_Logo.svg.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7165991095653416960/" target="_blank" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Aws-logo.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
                             <a href="https://www.linkedin.com/feed/update/urn:li:activity:7165991095653416960/" target="_blank"class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">Unveiling the Wonders of AWS✨</h5>
                             </a>
-                            <div class="date-blog hide">2021</div>
                         </div>
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
@@ -323,7 +322,6 @@ function insertRecentBlogs() {
                             <a href="https://www.linkedin.com/feed/update/urn:li:activity:7122846449066741760/" target="_blank" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">Unleashing the Power of Laravel</h5>
                             </a>
-                            <div class="date-blog hide">2021</div>
                         </div>
                     </div>
                    <div role="listitem" class="collection-item w-dyn-item">
@@ -332,16 +330,14 @@ function insertRecentBlogs() {
                             <a href="https://www.linkedin.com/posts/eonyx_tailwindcss-softwaredevelopment-webdevelopment-activity-7105421559489568768-_-SS?utm_source=share&utm_medium=member_desktop" target="_blank" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">Elevate your style game with Tailwind CSS!</h5>
                             </a>
-                            <div class="date-blog hide">2021</div>
                         </div>
                     </div>
-                    <div role="listitem" class="collection-item w-dyn-item">
+                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
                             <a href="https://www.linkedin.com/posts/eonyx_linkedincommunity-reactdevelopment-frontendmastery-activity-7098587991769571328-9myx?utm_source=share&utm_medium=member_desktop" target="_blank" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio//React-js.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
                             <a href="https://www.linkedin.com/posts/eonyx_linkedincommunity-reactdevelopment-frontendmastery-activity-7098587991769571328-9myx?utm_source=share&utm_medium=member_desktop" target="_blank" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">Navigating the Spectrum of React Development! 🚀</h5>
                             </a>
-                            <div class="date-blog hide">2021</div>
                         </div>
                     </div>
                 </div>
@@ -359,47 +355,48 @@ function insertPortfolio() {
                 <h2 data-w-id="ac1c39f6-3071-f098-aec3-9337033bdfe6" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">Portfolio</h2>
             </div>
             <div class="collection-list-wrapper w-dyn-list">
-                <div role="list" class="collection-list w-dyn-items">
+                <div role="list" class="collection-list w-dyn-items">  
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/OumaVH.png" loading="lazy" alt="Visit history" class="image-blog"></a>
-                            <div class="category-blog">Web</div>
-                            <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
-                            </a>
-                        </div>
-                    </div>                
-                    <div role="listitem" class="collection-item w-dyn-item">
-                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Salah1.png" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
-                            <div class="category-blog">Android</div>
-                            <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">2023</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div role="listitem" class="collection-item w-dyn-item">
-                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Salah.png" loading="lazy" alt="Salah" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2024-salahtimes-iOS.png" loading="lazy" alt="Salah" class="image-blog"></a>
                             <div class="category-blog">iOS</div>
                             <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">2023</h5>
+                                <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
+                            </a>
+                        </div>
+                    </div>             
+                    <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2024-salahtimes-android.png" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
+                            <div class="category-blog">Android</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
+                            </a>
+                        </div>
+                    </div> 
+                       <div role="listitem" class="collection-item w-dyn-item">
+                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2024-salahtimes-product.png" loading="lazy" alt="Visit history" class="image-blog"></a>
+                            <div class="category-blog">Product Design</div>
+                            <a href="#" class="link-heading-blog w-inline-block">
+                                <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
                             </a>
                         </div>
                     </div>
-                        <div role="listitem" class="collection-item w-dyn-item">
+                    <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/OumaBI.png" loading="lazy" alt="Responsive design" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2023-ouma-web.png" loading="lazy" alt="Responsive design" class="image-blog"></a>
                             <div class="category-blog">Web</div>
                             <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
+                                <h5 data-w-id="Heading 6" class="heading-blog">2023</h5>
                             </a>
                             <div class="date-blog hide">2023</div>
                         </div>
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Responsive.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2023-ouma-responsive.png
+                            " loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
                             <div class="category-blog">Responsive design</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2023</h5>
@@ -408,16 +405,7 @@ function insertPortfolio() {
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/Oumaresponsive.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
-                            <div class="category-blog">Responsive Design</div>
-                            <a href="#" class="link-heading-blog w-inline-block">
-                                <h5 data-w-id="Heading 6" class="heading-blog">2022</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div role="listitem" class="collection-item w-dyn-item">
-                        <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/surecatchDash-front.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2022-surecatch-web.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
                             <div class="category-blog">Web</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2022</h5>
@@ -426,7 +414,7 @@ function insertPortfolio() {
                     </div>
                        <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/profiles-front.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2022-surecatch-web2.png" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
                             <div class="category-blog">Web</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2022</h5>
@@ -435,7 +423,7 @@ function insertPortfolio() {
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/liferamp-desktop.png" loading="lazy" alt="5 Technologies that are true student helpers these days" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2021-liferamp-web.png" loading="lazy" alt="5 Technologies that are true student helpers these days" class="image-blog"></a>
                             <div class="category-blog">Web</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
@@ -444,7 +432,7 @@ function insertPortfolio() {
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/liferamp-ios.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2021-liferamp-ios.png" loading="lazy" alt="How to write your first android app: Useful Advice" class="image-blog"></a>
                             <div class="category-blog">iOS</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
@@ -453,7 +441,7 @@ function insertPortfolio() {
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/liferamp-android.png" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2021-liferamp-android.png" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
                             <div class="category-blog">Android</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
@@ -462,7 +450,7 @@ function insertPortfolio() {
                     </div>
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/product-design.jpg" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2021-liferamp-product-design.jpg" loading="lazy" alt="How to choose the right app reseller program" class="image-blog"></a>
                             <div class="category-blog">Product Design</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2021</h5>
@@ -475,7 +463,6 @@ function insertPortfolio() {
     </div>
     `)
 }
-
 
 function insertBrandsBanner() {
     document.write(`
@@ -518,7 +505,6 @@ function insertBrandsBanner() {
     </div>
     `)
 }
-
 
 function insertTechStack() {
     document.write(`
