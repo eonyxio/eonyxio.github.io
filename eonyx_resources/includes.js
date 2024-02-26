@@ -304,7 +304,7 @@ function insertSocialActivities() {
     <div class="section">
         <div class="content">
             <div class="block-center">
-                <h2 data-w-id="ac1c39f6-3071-f098-aec3-9337033bdfe6" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">Social Activities</h2>
+                <h2 data-w-id="ac1c39f6-3071-f098-aec3-9337033bdfe6" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="heading">Social Activity</h2>
             </div>
             <div class="collection-list-wrapper w-dyn-list">
                 <div role="list" class="collection-list w-dyn-items">
@@ -457,7 +457,7 @@ function insertPortfolio() {
                         </div>
                     </div>
                 </div>
-            </div>     
+            </div>
         </div>
     </div>
     `)
