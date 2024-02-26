@@ -458,7 +458,7 @@ function insertPortfolio() {
                         </div>
                     </div>
                 </div>
-            </div>     
+            </div>
         </div>
     </div>
     `)
