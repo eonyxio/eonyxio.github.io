@@ -367,7 +367,7 @@ function insertPortfolio() {
                     </div>             
                     <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2024-salahtimes-android.png" loading="lazy" alt="Is it worth it to build a mobile app for your business?" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2024-salahtimes-android.png" loading="lazy" alt="Android" class="image-blog"></a>
                             <div class="category-blog">Android</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
@@ -376,7 +376,7 @@ function insertPortfolio() {
                     </div> 
                        <div role="listitem" class="collection-item w-dyn-item">
                         <div data-w-id="Div Block 16" style="opacity: 0; transform: translate3d(0px, 30px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;" class="block-blog">
-                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2024-salahtimes-product.png" loading="lazy" alt="Visit history" class="image-blog"></a>
+                            <a href="#" class="link-image-blog w-inline-block"><img src="`+ getRoot() + `images/portfolio/2024-salahtimes-product.png" loading="lazy" alt="Product design" class="image-blog"></a>
                             <div class="category-blog">Product Design</div>
                             <a href="#" class="link-heading-blog w-inline-block">
                                 <h5 data-w-id="Heading 6" class="heading-blog">2024</h5>
