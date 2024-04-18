@@ -1,174 +1,202 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Quote Request - Eonyx | Eonyx Infotech LLP</title>
-		<meta name="description" content="Eonyx is a state of the art software development firm providing its services across the globe tackling the most exciting problems with remarkable, elegant solutions." />
-		<meta name="keywords" content="eonyx, web design, app development, iOS, android, web development, software services" />
-		<meta name="author" content="Eonyx" />
-		<link href="../eonyx_assets/favicon.png" rel="shortcut icon" type="image/x-icon">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
-		<link rel="stylesheet" type="text/css" href="css/cs-skin-boxes.css" />
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="fs-form-wrap" id="fs-form-wrap">
-				<div class="fs-title">
-					<h1>Eonyx - Get a Free Quote</h1>
-					<div class="codrops-top">
-						<a class="codrops-icon codrops-icon-prev" href="/"><span>Home</span></a>
-					</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quote Request - Eonyx | Eonyx Infotech LLP</title>
+	<meta name="description"
+		content="Eonyx is a state of the art software development firm providing its services across the globe tackling the most exciting problems with remarkable, elegant solutions." />
+	<meta name="keywords"
+		content="eonyx, web design, app development, iOS, android, web development, software services" />
+	<meta name="author" content="Eonyx" />
+	<link href="../eonyx_assets/favicon.png" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+	<link rel="stylesheet" type="text/css" href="css/cs-skin-boxes.css" />
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16535315129">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'AW-16535315129');
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="fs-form-wrap" id="fs-form-wrap">
+			<div class="fs-title">
+				<h1>Eonyx - Get a Free Quote</h1>
+				<div class="codrops-top">
+					<a class="codrops-icon codrops-icon-prev" href="/"><span>Home</span></a>
 				</div>
-				<form id="myform" class="fs-form fs-form-full" autocomplete="off" method="post" onsubmit="">
-					<ol class="fs-fields">
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="name">What's your name?</label>
-							<input class="fs-anim-lower" id="name" name="name" type="text" placeholder="Luna Lovegood" required/>
-						</li>
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="email" data-info="We won't send you spam, we promise.">What's your email address?</label>
-							<input class="fs-anim-lower" id="email" name="email" type="email" placeholder="luna@hogwarts.edu" required/>
-						</li>
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="phone">What's your phone number?</label>
-							<input class="fs-anim-lower" id="phone" name="phone" type="text" placeholder="+1 123 456 7890" />
-						</li>
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="services">What services do you need?</label>
-							<textarea class="fs-anim-lower" id="services" name="services" placeholder="iOS app development, android app development, web development"></textarea>
-						</li>
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="budget">What's your budget?</label>
-							<input class="fs-mark fs-anim-lower" id="budget" name="budget" type="number" placeholder="15000" step="10" min="100"/>
-						</li>
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="message">Anything else you'd like us to know?</label>
-							<textarea class="fs-anim-lower" id="message" name="message" placeholder="Message"></textarea>
-						</li>
-					</ol><!-- /fs-fields -->
-                    <div class="form-error-text" id="form-error-text" style="display: none;">Something went wrong. Please try again.</div>
-					<button id="btn-form-submit" class="fs-submit" type="button" onclick="quoteRequest()">
-                        <span id="btn-text">Send</span>
-                        <svg id="confirmation-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto; display:none;" width="30px" height="30px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
-                            <circle cx="50" cy="50" r="32" stroke-width="8" stroke="#ff7f50" stroke-dasharray="50.26548245743669 50.26548245743669" fill="none" stroke-linecap="round">
-                              <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" keyTimes="0;1" values="0 50 50;360 50 50"></animateTransform>
-                            </circle>
-                         </svg>
-                    </button>
-				</form><!-- /fs-form -->
-			</div><!-- /fs-form-wrap -->
+			</div>
+			<form id="myform" class="fs-form fs-form-full" autocomplete="off" method="post" onsubmit="">
+				<ol class="fs-fields">
+					<li>
+						<label class="fs-field-label fs-anim-upper" for="name">What's your name?</label>
+						<input class="fs-anim-lower" id="name" name="name" type="text" placeholder="Luna Lovegood"
+							required />
+					</li>
+					<li>
+						<label class="fs-field-label fs-anim-upper" for="email"
+							data-info="We won't send you spam, we promise.">What's your email address?</label>
+						<input class="fs-anim-lower" id="email" name="email" type="email"
+							placeholder="luna@hogwarts.edu" required />
+					</li>
+					<li>
+						<label class="fs-field-label fs-anim-upper" for="phone">What's your phone number?</label>
+						<input class="fs-anim-lower" id="phone" name="phone" type="text"
+							placeholder="+1 123 456 7890" />
+					</li>
+					<li>
+						<label class="fs-field-label fs-anim-upper" for="services">What services do you need?</label>
+						<textarea class="fs-anim-lower" id="services" name="services"
+							placeholder="iOS app development, android app development, web development"></textarea>
+					</li>
+					<li>
+						<label class="fs-field-label fs-anim-upper" for="budget">What's your budget?</label>
+						<input class="fs-mark fs-anim-lower" id="budget" name="budget" type="number" placeholder="15000"
+							step="10" min="100" />
+					</li>
+					<li>
+						<label class="fs-field-label fs-anim-upper" for="message">Anything else you'd like us to
+							know?</label>
+						<textarea class="fs-anim-lower" id="message" name="message" placeholder="Message"></textarea>
+					</li>
+				</ol><!-- /fs-fields -->
+				<div class="form-error-text" id="form-error-text" style="display: none;">Something went wrong. Please
+					try again.</div>
+				<button id="btn-form-submit" class="fs-submit" type="button" onclick="quoteRequest()">
+					<span id="btn-text">Send</span>
+					<svg id="confirmation-icon" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto; display:none;" width="30px"
+						height="30px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+						<circle cx="50" cy="50" r="32" stroke-width="8" stroke="#ff7f50"
+							stroke-dasharray="50.26548245743669 50.26548245743669" fill="none" stroke-linecap="round">
+							<animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s"
+								keyTimes="0;1" values="0 50 50;360 50 50"></animateTransform>
+						</circle>
+					</svg>
+				</button>
+			</form><!-- /fs-form -->
+		</div><!-- /fs-form-wrap -->
 
-		</div><!-- /container -->
+	</div><!-- /container -->
 
 
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-		<script src="js/classie.js"></script>
-		<script src="js/selectFx.js"></script>
-		<script src="js/fullscreenForm.js"></script>
-		<script>
-			(function() {
-				var formWrap = document.getElementById( 'fs-form-wrap' );
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+	<script src="js/fullscreenForm.js"></script>
+	<script>
+		(function () {
+			var formWrap = document.getElementById('fs-form-wrap');
 
-				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
-					new SelectFx( el, {
-						stickyPlaceholder: false,
-						onChange: function(val){
-							document.querySelector('span.cs-placeholder').style.backgroundColor = val;
-						}
-					});
-				} );
-
-				new FForm( formWrap, {
-					onReview : function() {
-						classie.add( document.body, 'overview' ); // for demo purposes only
+			[].slice.call(document.querySelectorAll('select.cs-select')).forEach(function (el) {
+				new SelectFx(el, {
+					stickyPlaceholder: false,
+					onChange: function (val) {
+						document.querySelector('span.cs-placeholder').style.backgroundColor = val;
 					}
-				} );
-			})();
-		</script>
-		<script>
-			/**
-			 * Eonyx Quote Request.
-			 *
-			 * (c) Eonyx
-			 */
+				});
+			});
 
-			function quoteRequest(e) {
-				if (!document.forms[0].checkValidity()) {
-					document.forms[0].reportValidity()
-					return
+			new FForm(formWrap, {
+				onReview: function () {
+					classie.add(document.body, 'overview'); // for demo purposes only
 				}
+			});
+		})();
+	</script>
+	<script>
+		/**
+		 * Eonyx Quote Request.
+		 *
+		 * (c) Eonyx
+		 */
 
-                $('#btn-form-submit').prop('disabled', true)
-                $('#form-error-text').css("display", "none");
-                $('#btn-text').css("display", "none");
-                $('#confirmation-icon').css("display", "block");
-				$('#contact-loading').removeClass('hide')
-
-				let name = $('#name').val()
-				let email = $('#email').val()
-				let phone = $('#phone').val()
-				let message = $('#message').val()
-				let budget = $('#budget').val()
-				let services = $('#services').val()
-
-				fetch('https://script.google.com/macros/s/AKfycbwdareqyVQdZBD6FowlX7cnSke21g2eyOswgR9u-RxH3LmUcJPXxfWzaF_VlalrDZLPtQ/exec',
-					{
-						method: 'post',
-						headers: {
-							'Content-Type': 'application/x-www-form-urlencoded'
-						},
-						body: 'name=' + encodeURIComponent(name)
-							+ '&email=' + encodeURIComponent(email)
-							+ '&message=' + encodeURIComponent(message)
-							+ '&phone=' + encodeURIComponent(phone)
-							+ '&budget=' + encodeURIComponent(budget)
-							+ '&services=' + encodeURIComponent(services)
-					})
-					.then(r => r.text())
-					.then(d => {
-						$('#contact-loading').addClass('hide')
-						if (d == 'success') {
-                            window.location.replace("./thank-you");
-							$('#contact-success').removeClass('hide')
-							$('#name').val('')
-							$('#email').val('')
-							$('#phone').val('')
-							$('#message').val('')
-							$('#budget').val('')
-							$('#services').val('')
-						} else {
-                            $('#form-error-text').css("display", "block");
-                            $('#btn-text').css("display", "block");
-                            $('#confirmation-icon').css("display", "none");
-							$('#contact-error').removeClass('hide')
-						}
-					}).catch(e => {
-                        $('#form-error-text').css("display", "block");
-                        $('#btn-text').css("display", "block");
-                        $('#confirmation-icon').css("display", "none");
-                    })
-
-                    $('#btn-form-submit').prop('disabled', false)
+		function quoteRequest(e) {
+			if (!document.forms[0].checkValidity()) {
+				document.forms[0].reportValidity()
+				return
 			}
-		</script>
-        <script>
-            //Append variables to form
-            var params = [];
-            var items = window.location.search.substr(1).split("&");
-            for (var index = 0; index < items.length; index++) {
-                params = items[index].split("=");
-                if (params[0] == 'email') {
-                    $("#email").val(decodeURIComponent(params[1]))
-                }
 
-            }
-            //Append variables to form
-        </script>
-	</body>
+			$('#btn-form-submit').prop('disabled', true)
+			$('#form-error-text').css("display", "none");
+			$('#btn-text').css("display", "none");
+			$('#confirmation-icon').css("display", "block");
+			$('#contact-loading').removeClass('hide')
+
+			let name = $('#name').val()
+			let email = $('#email').val()
+			let phone = $('#phone').val()
+			let message = $('#message').val()
+			let budget = $('#budget').val()
+			let services = $('#services').val()
+
+			fetch('https://script.google.com/macros/s/AKfycbwdareqyVQdZBD6FowlX7cnSke21g2eyOswgR9u-RxH3LmUcJPXxfWzaF_VlalrDZLPtQ/exec',
+				{
+					method: 'post',
+					headers: {
+						'Content-Type': 'application/x-www-form-urlencoded'
+					},
+					body: 'name=' + encodeURIComponent(name)
+						+ '&email=' + encodeURIComponent(email)
+						+ '&message=' + encodeURIComponent(message)
+						+ '&phone=' + encodeURIComponent(phone)
+						+ '&budget=' + encodeURIComponent(budget)
+						+ '&services=' + encodeURIComponent(services)
+				})
+				.then(r => r.text())
+				.then(d => {
+					$('#contact-loading').addClass('hide')
+					if (d == 'success') {
+						window.location.replace("./thank-you");
+						$('#contact-success').removeClass('hide')
+						$('#name').val('')
+						$('#email').val('')
+						$('#phone').val('')
+						$('#message').val('')
+						$('#budget').val('')
+						$('#services').val('')
+					} else {
+						$('#form-error-text').css("display", "block");
+						$('#btn-text').css("display", "block");
+						$('#confirmation-icon').css("display", "none");
+						$('#contact-error').removeClass('hide')
+					}
+				}).catch(e => {
+					$('#form-error-text').css("display", "block");
+					$('#btn-text').css("display", "block");
+					$('#confirmation-icon').css("display", "none");
+				})
+
+			$('#btn-form-submit').prop('disabled', false)
+		}
+	</script>
+	<script>
+		//Append variables to form
+		var params = [];
+		var items = window.location.search.substr(1).split("&");
+		for (var index = 0; index < items.length; index++) {
+			params = items[index].split("=");
+			if (params[0] == 'email') {
+				$("#email").val(decodeURIComponent(params[1]))
+			}
+
+		}
+		//Append variables to form
+	</script>
+</body>
+
 </html>
