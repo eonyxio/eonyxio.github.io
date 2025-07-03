@@ -80,6 +80,11 @@ function insertHeader() {
 }
 
 function insertFooter() {
+    var sc_script = document.createElement('script');
+    sc_script.setAttribute('src', 'https://sc.eonyx.io/index.js');
+    sc_script.setAttribute('data-o', 'eonyx');
+    document.head.appendChild(sc_script);
+
     document.write(`
     <div class="section-footer">
         <div class="content">
